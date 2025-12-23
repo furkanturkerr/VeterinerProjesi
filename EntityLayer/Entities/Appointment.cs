@@ -1,3 +1,5 @@
+using EntityLayer.Enums;
+
 namespace EntityLayer.Entities;
 
 public class Appointment
@@ -5,11 +7,9 @@ public class Appointment
     public int AppointmentId { get; set; }
     public DateTime Date { get; set; }
     public TimeOnly Time { get; set; }
-    public enum Status
-    {
-        Scheduled,
-        Completed,
-        Cancelled
-    }
+    public AppointmentStatus Status { get; set; }
     public string Notes { get; set; }
+    
+    public List<Treatment> Treatments { get; set; }
+    public List<Payment> Payments { get; set; }
 }

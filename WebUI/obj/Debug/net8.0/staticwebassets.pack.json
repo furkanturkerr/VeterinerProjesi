@@ -1,0 +1,1633 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/obj/Debug/net8.0/scopedcss/projectbundle/WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets/WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetPlus/index.html",
+      "PackagePath": "staticwebassets/VetPlus/index.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetPlus/ss.js",
+      "PackagePath": "staticwebassets/VetPlus/ss.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetPlus/style.css/style.css",
+      "PackagePath": "staticwebassets/VetPlus/style.css/style.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/.browserslistrc",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/.browserslistrc"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/.eslintrc.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/.eslintrc.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/.gitignore",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/.gitignore"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/.npmrc",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/.npmrc"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/CHANGELOG.md",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/CHANGELOG.md"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/ISSUE_TEMPLATE.md",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/ISSUE_TEMPLATE.md"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/LICENSE",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/README.md",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/README.md"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/babel.config.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/babel.config.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/genezio.yaml",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/genezio.yaml"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/package.json",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/package.json"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/public/favicon.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/public/favicon.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/public/index.html",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/public/index.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/App.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/App.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/argon-dashboard.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/argon-dashboard.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/css/nucleo-icons.css",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/css/nucleo-icons.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/css/nucleo-svg.css",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/css/nucleo-svg.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.eot",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.eot"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.ttf",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.woff",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.woff"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.woff2",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo-icons.woff2"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo.eot",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo.eot"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo.ttf",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo.ttf"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo.woff",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo.woff"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/fonts/nucleo.woff2",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/fonts/nucleo.woff2"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/apple-icon.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/apple-icon.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/bg-profile.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/bg-profile.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/bruce-mars.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/bruce-mars.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/card-visa.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/card-visa.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/carousel-1.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/carousel-1.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/carousel-2.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/carousel-2.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/carousel-3.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/carousel-3.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/down-arrow-dark.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/down-arrow-dark.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/down-arrow-white.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/down-arrow-white.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/down-arrow.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/down-arrow.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/favicon.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/favicon.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/icons/flags/AU.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/icons/flags/AU.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/icons/flags/BR.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/icons/flags/BR.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/icons/flags/DE.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/icons/flags/DE.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/icons/flags/GB.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/icons/flags/GB.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/icons/flags/US.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/icons/flags/US.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/illustrations/icon-documentation.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/illustrations/icon-documentation.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/illustrations/rocket-white.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/illustrations/rocket-white.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/ivancik.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/ivancik.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/logo-ct-dark.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/logo-ct-dark.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/logo-ct.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/logo-ct.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/logos/github.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/logos/github.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/logos/google.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/logos/google.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/logos/mastercard.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/logos/mastercard.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/logos/visa.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/logos/visa.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/shapes/waves-white.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/shapes/waves-white.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/bootstrap.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/bootstrap.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/icon-bulb.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/icon-bulb.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/icon-sun-cloud.png",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/icon-sun-cloud.png"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/logo-asana.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/logo-asana.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/logo-atlassian.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/logo-atlassian.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/logo-invision.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/logo-invision.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/logo-jira.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/logo-jira.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/logo-slack.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/logo-slack.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/logo-spotify.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/logo-spotify.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/small-logos/logo-xd.svg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/small-logos/logo-xd.svg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/team-1.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/team-1.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/team-2.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/team-2.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/team-3.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/team-3.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/team-4.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/team-4.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/team-5.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/team-5.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/img/vr-bg.jpg",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/img/vr-bg.jpg"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/js/dark-mode.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/js/dark-mode.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/js/nav-pills.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/js/nav-pills.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/js/tooltip.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/js/tooltip.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_accordion.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_accordion.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_alert.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_alert.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_avatars.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_avatars.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_backgrounds.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_backgrounds.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_badge.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_badge.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_breadcrumbs.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_breadcrumbs.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_buttons.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_buttons.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_cards-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_cards-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_cards.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_cards.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_components.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_components.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_dark-version.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_dark-version.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_dropdown-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_dropdown-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_dropdown.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_dropup.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_dropup.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_fixed-plugin.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_fixed-plugin.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_floating-elements.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_floating-elements.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_footer.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_footer.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_forms.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_forms.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_gradients.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_gradients.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_header.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_header.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_info-areas.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_info-areas.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_misc-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_misc-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_misc.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_misc.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_nav.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_nav.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_navbar-vertical.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_navbar-vertical.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_navbar.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_navbar.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_pagination.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_pagination.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_popovers.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_popovers.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_progress.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_progress.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_rtl-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_rtl-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_rtl.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_rtl.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_social-buttons.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_social-buttons.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_tables.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_tables.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_tilt.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_tilt.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_timeline.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_timeline.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_tooltips.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_tooltips.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_typography.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_typography.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_utilities-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_utilities-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_utilities.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_utilities.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_variables.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/_variables.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/badges/_badge-circle.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/badges/_badge-circle.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/badges/_badge-dot.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/badges/_badge-dot.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/badges/_badge-floating.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/badges/_badge-floating.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/badges/_badge.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/badges/_badge.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_accordion.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_accordion.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_alert.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_alert.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_badge.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_badge.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_button-group.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_button-group.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_buttons.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_buttons.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_card.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_card.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_carousel.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_carousel.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_close.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_close.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_containers.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_containers.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_dropdown.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_forms.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_forms.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_functions.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_functions.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_grid.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_grid.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_helpers.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_helpers.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_images.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_images.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_list-group.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_list-group.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_mixins.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_mixins.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_modal.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_modal.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_nav.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_nav.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_navbar.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_navbar.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_offcanvas.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_offcanvas.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_pagination.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_pagination.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_placeholders.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_placeholders.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_popover.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_popover.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_progress.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_progress.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_reboot.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_reboot.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_root.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_root.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_spinners.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_spinners.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_tables.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_tables.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_toasts.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_toasts.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_tooltip.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_transitions.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_transitions.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_type.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_type.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_utilities.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_utilities.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_variables.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/_variables.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/bootstrap-utilities.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/bootstrap.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_floating-labels.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_floating-labels.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-check.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-check.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-control.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-control.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-range.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-range.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-text.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_form-text.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_labels.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_validation.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/forms/_validation.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_clearfix.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_colored-links.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_colored-links.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_position.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_position.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_ratio.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_ratio.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_stacks.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_stacks.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_stretched-link.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_stretched-link.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_text-truncation.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_text-truncation.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_vr.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/helpers/_vr.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_backdrop.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_backdrop.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_color-scheme.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_color-scheme.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_container.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_container.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_deprecate.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_deprecate.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_grid.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_image.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_image.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_lists.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_resize.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_table-variants.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_table-variants.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_transition.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_utilities.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_utilities.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/mixins/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/utilities/_api.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/utilities/_api.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/vendor/_rfs.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/bootstrap/vendor/_rfs.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-background.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-background.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-blog.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-blog.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-carousel.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-carousel.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-horizontal.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-horizontal.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-pricing.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-pricing.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-profile.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/cards/card-profile.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/custom/_styles.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/custom/_styles.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/custom/_variables.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/custom/_variables.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_form-check.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_form-check.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_form-switch.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_form-switch.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_forms.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_forms.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_inputs.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_inputs.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_labels.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/_badge.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/_badge.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/_colored-shadows.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/_colored-shadows.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/_hover.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/_hover.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/_social-buttons.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/_social-buttons.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/mixins.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/mixins/mixins.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/_flatpickr.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/_flatpickr.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/_nouislider.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/_nouislider.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/_prism.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/_prism.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/plugins.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/free/plugins.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_carousel-slick.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_carousel-slick.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_choices.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_choices.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_datatable-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_datatable-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_datatable.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_datatable.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_dragula.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_dragula.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_dropzone.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_dropzone.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_fullcalendar-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_fullcalendar-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_fullcalendar.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_fullcalendar.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_glidejs.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_glidejs.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_highlight.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_highlight.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_kanban.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_kanban.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_leaflet.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_leaflet.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_list-check.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_list-check.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_photoswipe.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_photoswipe.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_quill.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_quill.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_rating-widget.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_rating-widget.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_sweetalert2-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_sweetalert2-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_sweetalert2.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/_sweetalert2.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/multi-step.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/multi-step.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/plugins-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/plugins/pro/plugins-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/theme-pro.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/theme-pro.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/theme.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/theme.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_animations.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_animations.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_avatars.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_avatars.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_badge.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_badge.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_cards-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_cards-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_cards.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_cards.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_choices.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_choices.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_dark-version.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_dark-version.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_dropdowns.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_dropdowns.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_fixed-plugin.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_fixed-plugin.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_form-switch.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_form-switch.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_full-calendar.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_full-calendar.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_header.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_header.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_info-areas.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_info-areas.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_misc-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_misc-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_misc.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_misc.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_navbar-vertical.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_navbar-vertical.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_navbar.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_navbar.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_pagination.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_pagination.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_rtl.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_rtl.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_social-buttons.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_social-buttons.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_table.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_table.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_timeline.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_timeline.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_utilities-extend.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_utilities-extend.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_utilities.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_utilities.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_virtual-reality.scss",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/assets/scss/argon-dashboard/variables/_virtual-reality.scss"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonAlert.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonAlert.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonAvatar.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonAvatar.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonBadge.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonBadge.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonButton.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonButton.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonCheckbox.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonCheckbox.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonInput.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonInput.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonPagination.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonPagination.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonPaginationItem.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonPaginationItem.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonProgress.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonProgress.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonRadio.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonRadio.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonSwitch.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonSwitch.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/components/ArgonTextarea.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/components/ArgonTextarea.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Breadcrumbs.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Breadcrumbs.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Calendar.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Calendar.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Cards/ComplexStatisticsCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Cards/ComplexStatisticsCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Cards/DefaultCounterCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Cards/DefaultCounterCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Cards/DefaultInfoCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Cards/DefaultInfoCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Cards/MasterCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Cards/MasterCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Cards/MiniStatisticsCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Cards/MiniStatisticsCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Cards/TimelineItem.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Cards/TimelineItem.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Cards/TimelineList.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Cards/TimelineList.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Charts/ActiveUsersChart.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Charts/ActiveUsersChart.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Charts/GradientLineChart.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Charts/GradientLineChart.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Configurator.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Configurator.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Footer.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Footer.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Globe.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Globe.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Navbars/Navbar.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Navbars/Navbar.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/PageLayout/Footer.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/PageLayout/Footer.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/PageLayout/Navbar.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/PageLayout/Navbar.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Sidenav/SidenavCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Sidenav/SidenavCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Sidenav/SidenavItem.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Sidenav/SidenavItem.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Sidenav/SidenavList.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Sidenav/SidenavList.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/examples/Sidenav/index.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/examples/Sidenav/index.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/main.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/main.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/router/index.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/router/index.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/store/index.js",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/store/index.js"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/Billing.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/Billing.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/Dashboard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/Dashboard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/Home.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/Home.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/Profile.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/Profile.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/Rtl.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/Rtl.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/Signin.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/Signin.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/Signup.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/Signup.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/Tables.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/Tables.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/VirtualReality.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/VirtualReality.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/AuthorsTable.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/AuthorsTable.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/BillingCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/BillingCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/CardCalendar.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/CardCalendar.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/CardEmail.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/CardEmail.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/CardMessage.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/CardMessage.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/CardPlayer.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/CardPlayer.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/CardToDo.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/CardToDo.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/Carousel.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/Carousel.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/CategoriesList.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/CategoriesList.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/CreditCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/CreditCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/DeveloperCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/DeveloperCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/InvoiceCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/InvoiceCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/NavPill.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/NavPill.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/PaymentCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/PaymentCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/ProfileCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/ProfileCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/ProjectCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/ProjectCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/ProjectsTable.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/ProjectsTable.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/RocketCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/RocketCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/TodoListCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/TodoListCard.vue"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/vue-argon-dashboard-main/src/views/components/TransactionCard.vue",
+      "PackagePath": "staticwebassets/vue-argon-dashboard-main/src/views/components/TransactionCard.vue"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WebUI.props",
+      "PackagePath": "build\\WebUI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\WebUI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebUI.props",
+      "PackagePath": "buildTransitive\\WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
