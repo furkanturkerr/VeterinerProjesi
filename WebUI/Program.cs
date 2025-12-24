@@ -17,6 +17,9 @@ builder.Services.AddScoped<IUowDal, UowDal>();
 builder.Services.AddScoped<IAnimalService, AnimalManager>();
 builder.Services.AddScoped<IAnimalDal, EfAnimalDal>();
 
+builder.Services.AddScoped<IHeroService,  HeroManager>();
+builder.Services.AddScoped<IHeroDal, EfHeroDal>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

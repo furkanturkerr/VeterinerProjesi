@@ -26,7 +26,6 @@
       <Folder Include="Areas\Admin\Data\" />
       <Folder Include="Areas\Admin\Models\" />
       <Folder Include="Areas\Admin\Pages\" />
-      <Folder Include="Areas\Admin\Views\" />
       <Folder Include="Pages\" />
     </ItemGroup>
 
@@ -35,6 +34,10 @@
       <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
       <ProjectReference Include="..\DTOLayer\DTOLayer.csproj" />
       <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Areas\Admin\Views\Hero\Index.cshtml" />
     </ItemGroup>
 
 </Project>
