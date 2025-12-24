@@ -5,16 +5,32 @@
       "PackagePath": "staticwebassets/WebUI.bundle.scp.css"
     },
     {
-      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetPlus/index.html",
-      "PackagePath": "staticwebassets/VetPlus/index.html"
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetLife/blog.html",
+      "PackagePath": "staticwebassets/VetLife/blog.html"
     },
     {
-      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetPlus/ss.js",
-      "PackagePath": "staticwebassets/VetPlus/ss.js"
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetLife/index.html",
+      "PackagePath": "staticwebassets/VetLife/index.html"
     },
     {
-      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetPlus/style.css/style.css",
-      "PackagePath": "staticwebassets/VetPlus/style.css/style.css"
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetLife/page/login.html",
+      "PackagePath": "staticwebassets/VetLife/page/login.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetLife/page/page-style/login.css",
+      "PackagePath": "staticwebassets/VetLife/page/page-style/login.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetLife/page/page-style/register.css",
+      "PackagePath": "staticwebassets/VetLife/page/page-style/register.css"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetLife/page/register.html",
+      "PackagePath": "staticwebassets/VetLife/page/register.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetLife/style/style.css",
+      "PackagePath": "staticwebassets/VetLife/style/style.css"
     },
     {
       "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/admin/.gitignore",

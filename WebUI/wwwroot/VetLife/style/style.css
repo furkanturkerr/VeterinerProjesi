@@ -1,0 +1,870 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    height: 120vh;
+    background-color: #f2f6f0;
+}
+
+span {
+    color: #00FF00;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-c {
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.c-1 {
+    display: flex;
+    align-items: center;
+}
+
+.c-1 h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* MENU */
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+}
+
+/* PROFILE */
+.profile {
+    position: relative;
+}
+
+.profile-circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #198754;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profile-dropdown {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    background: #fff;
+    border-radius: 14px;
+    min-width: 180px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .12);
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: .25s;
+    z-index: 100;
+}
+
+.profile:hover .profile-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.profile-dropdown a {
+    display: block;
+    padding: 10px 18px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.profile-dropdown a:hover {
+    background: #f2f6f0;
+}
+
+.profile-dropdown hr {
+    margin: 8px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+.logout {
+    color: #dc3545;
+}
+
+/* HAMBURGER */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width:768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    /* menüyü kontrol eden wrapper */
+    .nav-wrapper {
+        position: absolute;
+        top: 90px;
+        left: 20px;
+        right: 20px;
+        display: none;
+    }
+
+    .nav-wrapper.active {
+        display: block;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        background: #fff;
+        border-radius: 15px;
+        padding: 10px 0;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
+    }
+
+    .nav-item {
+        padding: 14px 20px;
+    }
+}
+
+/* ================= Hero ================= */
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.399), rgba(0, 0, 0, 0.739)), url("https://petinoks.app/wp-content/uploads/2024/01/golden-retriever-kosuyor-1210x660.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px;
+}
+
+.hero h3 {
+    font-size: 50px;
+    color: white;
+}
+
+.hero p {
+    color: white;
+    font-size: 20px;
+}
+
+.hero .btn {
+    background-color: #00FF00;
+    border: 0;
+    color: black;
+    width: 150px;
+}
+
+.summary {
+    margin-top: 50px;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.sumart-card {
+    display: flex;
+    gap: 20px;
+}
+
+.sumart-card .card {
+    flex: 1;
+    border: none;
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.sumart-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .1);
+}
+
+.sumart-card i {
+    font-size: 36px;
+    color: #00a6a6;
+    margin-bottom: 15px;
+}
+
+.sumart-card h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* ================= HERO RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .hero {
+        padding: 120px 60px;
+        height: auto;
+    }
+
+    .hero h3 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 25px;
+        height: auto;
+    }
+
+    .hero h3 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .hero .btn {
+        margin-top: 20px;
+    }
+}
+
+/* ================= SUMMARY CARDS RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .sumart-card {
+        flex-wrap: wrap;
+    }
+
+    .sumart-card .card {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .sumart-card {
+        flex-direction: column;
+    }
+
+    .sumart-card .card {
+        flex: 1;
+    }
+}
+
+
+/* ================= About ================= */
+
+.about {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 100px 50px 100px 50px;
+}
+
+.about-l {
+    flex: 1;
+}
+
+.about-r {
+    flex: 1;
+}
+
+.about-r-img-l {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.about-r-img-l img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.about-r-img-l img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .1);
+}
+
+/* ================= Service ================= */
+
+.services {
+    margin-top: 100px;
+}
+
+.services-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-header span {
+    color: #00a6a6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.services-header h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background: #ffffff;
+    padding: 35px 25px;
+    border-radius: 18px;
+    text-align: center;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+}
+
+.service-card i {
+    font-size: 34px;
+    color: #00a6a6;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.appointment-cta {
+    margin-top: 100px;
+    padding: 60px 0;
+}
+
+/* ================= SERVICES RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .services-header h2 {
+        font-size: 30px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        margin-top: 70px;
+    }
+
+    .services-header h2 {
+        font-size: 26px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .service-card {
+        padding: 30px 20px;
+    }
+}
+
+/* ================= Team ================= */
+
+.team {
+    margin-top: 120px;
+}
+
+.team-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team-header span {
+    color: #00a6a6;
+    font-weight: 600;
+}
+
+.team-header h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.team-card {
+    background: transparent;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #e5f6f6;
+    padding: 6px;
+}
+
+.team-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.team-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-role {
+    color: #00FF00;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.team-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-header h2 {
+        font-size: 28px;
+    }
+}
+
+/* ================= Cta ================= */
+
+.cta-box {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 50px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cta-text h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.cta-text p {
+    color: #555;
+    font-size: 17px;
+    max-width: 600px;
+}
+
+.cta-action .btn {
+    padding: 14px 34px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+/* ================= CTA RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .cta-box {
+        padding: 40px 40px;
+    }
+
+    .cta-text h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cta-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 35px 25px;
+    }
+
+    .cta-text h2 {
+        font-size: 26px;
+    }
+
+    .cta-text p {
+        font-size: 16px;
+        max-width: none;
+    }
+
+    .cta-action .btn {
+        width: 100%;
+        padding: 14px 10px;
+    }
+}
+
+
+/* ================= Blog ================= */
+
+.blog {
+    margin-top: 100px;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-header span {
+    color: #00a6a6;
+    font-weight: 600;
+}
+
+.blog-header h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.blog-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform .2s ease, box-shadow .2s ease;
+    cursor: pointer;
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+}
+
+.blog-img {
+    aspect-ratio: 16 / 10;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 25px;
+}
+
+.blog-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* ================= BLOG RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .blog-header h2 {
+        font-size: 30px;
+    }
+
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog {
+        margin-top: 70px;
+    }
+
+    .blog-header h2 {
+        font-size: 26px;
+    }
+
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .blog-content {
+        padding: 22px;
+    }
+
+    .blog-content h3 {
+        font-size: 18px;
+    }
+
+    .blog-content p {
+        font-size: 14px;
+    }
+}
+
+
+/* ================= Contact ================= */
+
+.contact {
+    margin-top: 120px;
+}
+
+.contact-box {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 60px;
+    display: flex;
+    gap: 50px;
+    align-items: stretch;
+}
+
+.contact-l {
+    flex: 1;
+}
+
+.contact-l h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.contact-l p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-form .form-control {
+    border-radius: 14px;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-r {
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contact-r iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    border: 0;
+}
+
+/* ================= CONTACT RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .contact-box {
+        padding: 45px;
+        gap: 35px;
+    }
+
+    .contact-l h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        margin-top: 80px;
+    }
+
+    .contact-box {
+        flex-direction: column;
+        padding: 35px 25px;
+        gap: 30px;
+    }
+
+    .contact-l h2 {
+        font-size: 26px;
+    }
+
+    .contact-l p {
+        font-size: 15px;
+    }
+
+    .contact-r iframe {
+        min-height: 300px;
+    }
+}
+
+
+/* ================= Footer ================= */
+
+.footer {
+    background: #0f172a;
+    color: #fff;
+    margin-top: 120px;
+    padding-top: 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col li {
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.footer-col a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    color: #00a6a6;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    color: #aaa;
+}
+
+/* ================= FOOTER RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .footer {
+        margin-top: 90px;
+        padding-top: 50px;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 70px;
+        padding-top: 40px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-col ul {
+        padding: 0;
+    }
+
+    .footer-col li {
+        margin-bottom: 8px;
+    }
+
+    .footer-bottom {
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+}

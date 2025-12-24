@@ -1,0 +1,104 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+
+    body {
+        height: 120vh;
+        background-color: #f2f6f0;
+    }
+
+    span {
+        color: #00FF00;
+    }
+
+    .contact {
+        margin: 120px auto;
+    }
+
+    .contact-box {
+        max-width: 900px;
+        margin: auto;
+        padding: 60px;
+        border-radius: 24px;
+        background: #f9fdfb;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+    }
+
+    .contact-l h2 {
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+
+    .contact-l h2 span {
+        color: #198754;
+    }
+
+    .contact-desc {
+        color: #666;
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+
+    .contact-form .form-control {
+        height: 52px;
+        border-radius: 12px;
+        border: 1px solid #ddd;
+        font-size: 15px;
+        padding: 0 14px;
+        transition: 0.25s ease;
+    }
+
+    .contact-form .form-control:focus {
+        border-color: #198754;
+        box-shadow: 0 0 0 0.15rem rgba(25, 135, 84, 0.15);
+    }
+
+    .contact-form button {
+        height: 54px;
+        border-radius: 14px;
+        font-weight: 600;
+        font-size: 17px;
+        transition: all 0.3s ease;
+    }
+
+    .contact-form button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 25px rgba(25, 135, 84, 0.35);
+    }
+
+    .login-text {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+    }
+
+    .login-text a {
+        color: #198754;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .login-text a:hover {
+        text-decoration: underline;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+        .contact-box {
+            padding: 40px 25px;
+        }
+
+        .contact-l h2 {
+            font-size: 28px;
+        }
+    }
