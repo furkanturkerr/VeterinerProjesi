@@ -8,8 +8,8 @@ namespace BusinessLayer.Concrate;
 public class AnimalManager : IAnimalService
 {
     private readonly IAnimalDal _animalDal;
-    private readonly UowDal _uowDal;
-    public AnimalManager(IAnimalDal animalDal, UowDal uowDal)
+    private readonly IUowDal _uowDal;
+    public AnimalManager(IAnimalDal animalDal, IUowDal uowDal)
     {
         _animalDal = animalDal;
         _uowDal = uowDal;

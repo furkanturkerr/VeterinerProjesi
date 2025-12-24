@@ -39,10 +39,7 @@
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
-/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Mono.TextTemplating.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/System.CodeDom.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/System.Composition.AttributedModel.dll
@@ -113,7 +110,6 @@
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
-/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Identity.Client.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
@@ -124,7 +120,6 @@
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
-/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/System.Drawing.Common.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/System.Memory.Data.dll

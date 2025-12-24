@@ -1,18 +1,91 @@
-@model dynamic
+@model List<DTOLayer.AnimalDtos.ResultAnimalDto>
 
 @{
-    Layout = null;
+    Layout = "~/Views/Admin/index.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-      
-</div>
-</body>
-</html>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-white" href="javascript:;">Admin</a></li>
+    <li class="breadcrumb-item text-sm text-white active" aria-current="page">Hayvanlar</li>
+  </ol>
+  <h6 class="font-weight-bolder text-white mb-0">Hayvan Listesi</h6>
+</nav>
+<br/>
+<div class="card mb-4">
+            <div class="card-body px-0 pt-0 pb-2">
+              <div class="table-responsive p-0">
+                <table class="table align-items-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Sahip ID</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Ad</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Yaş</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Kilo</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Boy</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tür</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Irk</th>
+                      <th class="text-secondary opacity-7"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  @foreach (var item in Model)
+                  {
+                    <tr>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm"><td>@item.OwnerId</td></h6>
+                      </div>                      
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm"><td>@item.Name</td>
+                        </h6>
+                      </div>                      
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm"><td>@item.Age</td></h6>
+                      </div>                      
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm"><td>@item.Weight</td></h6>
+                      </div>                      
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm"><td>@item.Height</td></h6>
+                      </div>                      
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm"><td>@item.Species</td></h6>
+                      </div>                      
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm"><td>@item.Species</td></h6>
+                      </div>
+                    </tr>
+                  }
+                  @*<tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div>
+                            <img src="../assets/img/team-4.jpg" class="avatar avatar-sm me-3" alt="user6">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">Miriam Eric</h6>
+                            <p class="text-xs text-secondary mb-0">miriam@creative-tim.com</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">Programtor</p>
+                        <p class="text-xs text-secondary mb-0">Developer</p>
+                      </td>
+                      <td class="align-middle text-center text-sm">
+                        <span class="badge badge-sm bg-gradient-secondary">Offline</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">14/09/20</span>
+                      </td>
+                      <td class="align-middle">
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                          Edit
+                        </a>
+                      </td>
+                    </tr>*@
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
