@@ -1,0 +1,8 @@
+namespace EntityLayer.Entities;
+
+public class Hero
+{
+    public int HeroId { get; set; }
+    public string HeroTitle { get; set; }
+    public string HeroDescription { get; set; }
+}

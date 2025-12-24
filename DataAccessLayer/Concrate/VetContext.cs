@@ -15,4 +15,14 @@ public class VetContext : DbContext
     public DbSet<Payment> Payments { get; set; }
     public DbSet<Treatment> Treatments { get; set; }
     public DbSet<WeatherInfo> WeatherInfos { get; set; }
+    
+    public DbSet<Footer> Footers  { get; set; }
+    public DbSet<UIAppointment> UIAppointments { get; set; }
+    public DbSet<Team> Teams { get; set; }
+    public DbSet<Contact> Contacts { get; set; }
+    public DbSet<Blog> Blogs { get; set; }
+    public DbSet<About> Abouts { get; set; }
+    public DbSet<Hero> Heroes { get; set; }
+    public DbSet<Service> Services { get; set; }
+    public DbSet<Summary> Summaries { get; set; }
 }
