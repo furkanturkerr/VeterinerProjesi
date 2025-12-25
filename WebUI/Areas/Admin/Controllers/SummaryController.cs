@@ -26,20 +26,20 @@ public class SummaryController : Controller
     }
 
     [HttpGet]
-    public IActionResult Create()
+    public IActionResult CreateSummary()
     {
         return View();
     }
 
     [HttpPost]
-    public IActionResult Create(CreateSummaryDto createSummaryDto)
+    public IActionResult CreateSummary(CreateSummaryDto createSummaryDto)
     {
         var values = _mapper.Map<Summary>(createSummaryDto);
         _summaryService.TAdd(values);
         return RedirectToAction("Index");
     }
 
-    public IActionResult Delete(int id)
+    public IActionResult DeleteSummary(int id)
     {
         var  values = _summaryService.TGetById(id);
         _summaryService.TDelete(values);
@@ -47,14 +47,14 @@ public class SummaryController : Controller
     }
 
     [HttpGet]
-    public IActionResult Update(int id)
+    public IActionResult UpdateSummary(int id)
     {
         var values = _summaryService.TGetById(id);
         return View(_mapper.Map<ResultSummaryDto>(values));
     }
 
     [HttpPost]
-    public IActionResult Update(UpdateSummaryDto updateSummaryDto)
+    public IActionResult UpdateSummary(UpdateSummaryDto updateSummaryDto)
     {
         var values = _mapper.Map<Summary>(updateSummaryDto);
         _summaryService.TUpdate(values);

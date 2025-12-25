@@ -21,6 +21,8 @@ builder.Services.AddScoped<IHeroService,  HeroManager>();
 builder.Services.AddScoped<IHeroDal, EfHeroDal>();
 builder.Services.AddScoped<ISummaryService, SummaryManager>();
 builder.Services.AddScoped<ISummaryDal, EfSummaryDal>();
+builder.Services.AddScoped<IAboutService, AboutManager>();
+builder.Services.AddScoped<IAboutDal, EfAboutDal>();
 
 var app = builder.Build();
 

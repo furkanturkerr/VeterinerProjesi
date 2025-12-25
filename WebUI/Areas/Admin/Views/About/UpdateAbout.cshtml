@@ -1,0 +1,41 @@
+@model DTOLayer.About.UpdateAboutDto
+
+@{
+    Layout = "~/Views/Admin/index.cshtml";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-white" href="javascript:;">Admin</a></li>
+        <li class="breadcrumb-item text-sm text-white active" aria-current="page">Anasayfa</li>
+    </ol>
+    <h6 class="font-weight-bolder text-white mb-0">Hakkımızda Alanını Güncelle</h6>
+</nav>
+<br/>
+
+<form method="post" class="form-control">
+    <input type="hidden" asp-for="@Model.AboutId"/>
+    <label for="Title">Başlık</label>
+    <input type="text" value="@Model.Title" asp-for="@Model.Title" class="form-control" id="Title"/>
+    <br/>
+    <label for="TitleGreen">Başlık Yeşil</label>
+    <input type="text" value="@Model.TitleGreen" asp-for="@Model.TitleGreen" class="form-control" id="TitleGreen"/>
+    <br/>
+    <label for="Description">Açıklama</label>
+    <textarea type="text" value="@Model.Description" asp-for="@Model.Description" rows="6" class="form-control" id="Description"></textarea>
+    <br/>
+    <br/>
+    <label for="Image1">Görsel - 1</label>
+    <input type="text" value="@Model.Image1" asp-for="@Model.Image1" class="form-control" id="Image1"/>
+    <br/>
+    <label for="Image2">Görsel - 2</label>
+    <input type="text" value="@Model.Image2" asp-for="@Model.Image2" class="form-control" id="Image2"/>
+    <br/>
+    <label for="Image3">Görsel - 3</label>
+    <input type="text" value="@Model.Image3" asp-for="@Model.Image3" class="form-control" id="Image3"/>
+    <br/>
+    <label for="Image4">Görsel - 4</label>
+    <input type="text" value="@Model.Image4" asp-for="@Model.Image4" class="form-control" id="Image4"/>
+    <br/>
+    <button class="btn btn-outline-warning">Güncelle</button>
+</form>
