@@ -19,6 +19,8 @@ builder.Services.AddScoped<IAnimalDal, EfAnimalDal>();
 
 builder.Services.AddScoped<IHeroService,  HeroManager>();
 builder.Services.AddScoped<IHeroDal, EfHeroDal>();
+builder.Services.AddScoped<ISummaryService, SummaryManager>();
+builder.Services.AddScoped<ISummaryDal, EfSummaryDal>();
 
 var app = builder.Build();
 
@@ -39,14 +41,14 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "areas",
-    pattern: "{area:exists}/{controller=Animal}/{action=Index}/{id?}",
+    pattern: "{area:exists}/{controller=Hero}/{action=Index}/{id?}",
     defaults: new { area = "Admin" }
 );
 
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Default}/{action=Index}/{id?}");
 
 
 app.Run();

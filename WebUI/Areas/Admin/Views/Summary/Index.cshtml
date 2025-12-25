@@ -1,0 +1,85 @@
+@model List<DTOLayer.SummaryDtos.ResultSummaryDto>
+
+@{
+    Layout = "~/Views/Admin/index.cshtml";
+}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-white" href="javascript:;">Admin</a></li>
+    <li class="breadcrumb-item text-sm text-white active" aria-current="page">Anasayfa</li>
+  </ol>
+  <h6 class="font-weight-bolder text-white mb-0">Özet Alanı</h6>
+</nav>
+<br/>
+        <div class="card mb-12">
+        <div class="card-body mb-12">
+            
+            <div class="table-responsive p-0">
+                <table class="table align-items-center mb-0">
+                    <thead>
+                    <tr>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                            Başlık
+                        </th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                            Açıklama
+                        </th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                            Icon
+                        </th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">
+                            Düzenle
+                        </th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">
+                            Sil
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <p class="text-sm font-weight-bold mb-0">@item.Title</p>
+                            </td>
+
+                            <td>
+                                <p class="text-sm text-secondary mb-0">
+                                    @item.Description
+                                </p>
+                            </td>
+
+                            <td>
+                                <span class="badge bg-gradient-info">
+                                    @item.İcon
+                                </span>
+                            </td>
+
+                            <td class="align-middle text-center">
+                                <a href="~/Admin/Summary/Update/@item.SummaryId" 
+                                   class="text-secondary font-weight-bold text-xs"
+                                   data-toggle="tooltip"
+                                   title="Düzenle">
+                                    Düzenle
+                                </a>
+                            </td>
+                            
+                            <td class="align-middle text-center">
+                                <a href="~/Admin/Summary/Delete/@item.SummaryId" 
+                                   class="text-danger font-weight-bold text-xs"
+                                   data-toggle="tooltip"
+                                   title="Düzenle">
+                                    Sil
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+                <br/>
+                <a class="btn btn-outline-dark" href="~/Admin/Summary/Create">Özet Alanı Ekle</a>
+            </div>
+
+        </div>
+        </div>
