@@ -4,25 +4,67 @@
     Layout = "~/Views/Admin/index.cshtml";
 }
 
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-white" href="javascript:;">Admin</a></li>
-        <li class="breadcrumb-item text-sm text-white active" aria-current="page">Anasayfa</li>
-    </ol>
-    <h6 class="font-weight-bolder text-white mb-0">Özet Alanı Güncelle</h6>
-</nav>
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4" xmlns="http://www.w3.org/1999/html">
+    <div>
+        <h2 class="text-2xl font-bold text-text-main">Özet Alanı Güncelle</h2>
+    </div>
+</div>
 <br/>
 
-<form method="post" class="form-control">
-    <input type="hidden" asp-for="@Model.SummaryId"/>
-    <label for="Title">Başlık</label>
-    <input type="text" value="@Model.Title" asp-for="@Model.Title" class="form-control" id="Title"/>
-    <br/>
-    <label for="Description">Açıklama</label>
-    <input type="text" value="@Model.Description" asp-for="@Model.Description" class="form-control" id="Description"/>
-    <br/>
-    <label for="İcon">İcon</label>
-    <input type="text" value="@Model.İcon" asp-for="@Model.İcon" class="form-control" id="İcon"/>
-    <br/>
-    <button class="btn btn-outline-warning">Güncelle</button>
-</form>
+<div class="w-full bg-white dark:bg-[#1a202c] rounded-xl shadow-[0_2px_12px_-4px_rgba(0,0,0,0.08)] border border-slate-200 dark:border-slate-800 overflow-hidden">
+    <div class="p-6 md:p-8">
+        <form method="post" class="space-y-6">
+            <input type="hidden" asp-for="@Model.SummaryId"/>
+            <!-- Section: General Info -->
+            <div class="space-y-6">
+                <div class="grid grid-cols-1 gap-6">
+                    <!-- Field: Title -->
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                               for="title">Başlık</label>
+                        <input
+                            class="w-full h-12 px-4 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-primary/20 focus:border-primary text-text-main dark:text-white placeholder-text-secondary transition-all"
+                            id="title" type="text"
+                            value="@Model.Title" asp-for="@Model.Title"/>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                               for="title">Başlık</label>
+                        <input
+                            class="w-full h-12 px-4 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-primary/20 focus:border-primary text-text-main dark:text-white placeholder-text-secondary transition-all"
+                            id="title" type="text"
+                            value="@Model.İcon" asp-for="@Model.İcon"/>
+                    </div>
+
+
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                               for="Description">Açıklama</label>
+                        <div class="relative">
+                            <textarea class="w-full px-4 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-green-500/20 focus:border-green-500 text-text-main dark:text-white placeholder-text-secondary transition-all"
+                                                id="Description" type="text"
+                                                rows="6"
+                                                value="@Model.Description" asp-for="@Model.Description" >
+                                            </textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-gray-50 dark:bg-gray-900/50 px-6 py-4 border-t border-border-light dark:border-border-dark flex items-center justify-end gap-3">
+                <a
+                    href="~/Admin/Summary"
+                    class="px-5 py-2.5 rounded-lg text-sm font-semibold text-text-secondary hover:text-text-main hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+                    type="button">
+                    İptal
+                </a>
+                <button
+                    class="px-6 py-2.5 rounded-lg text-sm font-semibold bg-primary text-white hover:bg-blue-600 focus:ring-4 focus:ring-blue-500/30 transition-all shadow-sm flex items-center gap-2">
+                    <span class="material-symbols-outlined text-[20px]">save</span>
+                    Kaydet
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
