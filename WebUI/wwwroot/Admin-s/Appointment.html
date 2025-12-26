@@ -1,4 +1,135 @@
-<main class="flex-1 flex flex-col h-full overflow-hidden bg-background-light relative">
+<!DOCTYPE html>
+<html class="light" lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Randevular Yönetimi - VetCare Klinik</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#256af4",
+                        "primary-light": "#eef4ff",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#101622",
+                        "surface-white": "#ffffff",
+                        "text-main": "#111318",
+                        "text-secondary": "#606e8a",
+                        "success": "#07883b",
+                        "warning": "#eab308",
+                        "danger": "#ef4444",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "2rem",
+                        "full": "9999px"
+                    },
+                    boxShadow: {
+                        "soft": "0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02)",
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .icon-filled {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        #new-appointment-modal:target {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light text-text-main h-screen overflow-hidden flex">
+    <aside class="w-64 h-full bg-surface-white border-r border-gray-100 flex flex-col flex-shrink-0 z-20">
+        <div class="h-20 flex items-center gap-3 px-6 border-b border-gray-50">
+            <div class="bg-primary/10 text-primary flex items-center justify-center rounded-lg size-10">
+                <span class="material-symbols-outlined text-2xl icon-filled">pets</span>
+            </div>
+            <div class="flex flex-col">
+                <h1 class="text-text-main text-lg font-bold leading-tight tracking-tight">VetCare Klinik</h1>
+                <p class="text-text-secondary text-xs font-medium">Yönetici Paneli</p>
+            </div>
+        </div>
+        <div class="flex-1 overflow-y-auto py-6 px-4 flex flex-col gap-2">
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-50 text-text-secondary hover:text-text-main transition-colors group"
+                href="#">
+                <span class="material-symbols-outlined group-hover:text-primary transition-colors">dashboard</span>
+                <span class="text-sm font-medium">Gösterge Paneli</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-50 text-text-secondary hover:text-text-main transition-colors group"
+                href="#">
+                <span class="material-symbols-outlined group-hover:text-primary transition-colors">group</span>
+                <span class="text-sm font-medium">Kullanıcılar</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-50 text-text-secondary hover:text-text-main transition-colors group"
+                href="#">
+                <span class="material-symbols-outlined group-hover:text-primary transition-colors">pet_supplies</span>
+                <span class="text-sm font-medium">Hayvanlar</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl bg-primary-light text-primary group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined icon-filled">calendar_month</span>
+                <span class="text-sm font-semibold">Randevular</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-50 text-text-secondary hover:text-text-main transition-colors group"
+                href="#">
+                <span class="material-symbols-outlined group-hover:text-primary transition-colors">stethoscope</span>
+                <span class="text-sm font-medium">Tedaviler</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-50 text-text-secondary hover:text-text-main transition-colors group"
+                href="#">
+                <span class="material-symbols-outlined group-hover:text-primary transition-colors">payments</span>
+                <span class="text-sm font-medium">Ödemeler</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-50 text-text-secondary hover:text-text-main transition-colors group"
+                href="#">
+                <span class="material-symbols-outlined group-hover:text-primary transition-colors">description</span>
+                <span class="text-sm font-medium">Raporlar</span>
+            </a>
+            <div class="my-2 border-t border-gray-100"></div>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-gray-50 text-text-secondary hover:text-text-main transition-colors group"
+                href="#">
+                <span class="material-symbols-outlined group-hover:text-primary transition-colors">settings</span>
+                <span class="text-sm font-medium">Arayüz Ayarları</span>
+            </a>
+        </div>
+        <div class="p-4 border-t border-gray-50">
+            <a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-red-50 text-text-secondary hover:text-danger transition-colors group"
+                href="#">
+                <span class="material-symbols-outlined">logout</span>
+                <span class="text-sm font-medium">Çıkış Yap</span>
+            </a>
+        </div>
+    </aside>
+    <main class="flex-1 flex flex-col h-full overflow-hidden bg-background-light relative">
         <header
             class="h-20 bg-surface-white border-b border-gray-100 flex items-center justify-between px-8 flex-shrink-0 z-10">
             <div class="flex-1 max-w-xl">
@@ -379,3 +510,94 @@
             </div>
         </div>
     </main>
+    <div aria-labelledby="modal-title" aria-modal="true" class="hidden fixed inset-0 z-50 overflow-y-auto"
+        id="new-appointment-modal" role="dialog">
+        <div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+            <a aria-hidden="true" class="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75 cursor-default"
+                href="#"></a>
+            <span aria-hidden="true" class="hidden sm:inline-block sm:align-middle sm:h-screen">​</span>
+            <div
+                class="inline-block w-full max-w-lg p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl sm:align-middle">
+                <div class="flex items-center justify-between mb-5">
+                    <h3 class="text-lg font-bold leading-6 text-text-main" id="modal-title">Yeni Randevu Oluştur</h3>
+                    <a class="text-gray-400 hover:text-gray-500" href="#">
+                        <span class="material-symbols-outlined">close</span>
+                    </a>
+                </div>
+                <form action="#" class="flex flex-col gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-text-secondary mb-1.5" for="animal">Hayvan
+                            Seç</label>
+                        <select
+                            class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2.5"
+                            id="animal" name="animal">
+                            <option>Seçiniz...</option>
+                            <option>Boncuk (Kedi - Ayşe Demir)</option>
+                            <option>Karabaş (Köpek - Mehmet Kaya)</option>
+                            <option>Max (Golden - Ahmet Yılmaz)</option>
+                        </select>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-text-secondary mb-1.5" for="date">Tarih</label>
+                            <input
+                                class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2.5"
+                                id="date" name="date" type="date" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-text-secondary mb-1.5" for="time">Saat</label>
+                            <input
+                                class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2.5"
+                                id="time" name="time" type="time" />
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-text-secondary mb-1.5" for="procedure">İşlem
+                                Türü</label>
+                            <select
+                                class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2.5"
+                                id="procedure" name="procedure">
+                                <option>Muayene</option>
+                                <option>Aşı</option>
+                                <option>Ameliyat</option>
+                                <option>Kontrol</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-text-secondary mb-1.5"
+                                for="status">Durum</label>
+                            <select
+                                class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2.5"
+                                id="status" name="status">
+                                <option>Planlandı</option>
+                                <option>Tamamlandı</option>
+                                <option>İptal</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-text-secondary mb-1.5" for="notes">Notlar</label>
+                        <textarea
+                            class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+                            id="notes" name="notes" placeholder="Randevu ile ilgili notlar..." rows="3"></textarea>
+                    </div>
+                    <div class="mt-4 flex gap-3 justify-end">
+                        <a class="px-4 py-2 text-sm font-medium text-text-secondary bg-white border border-gray-300 rounded-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+                            href="#">
+                            İptal
+                        </a>
+                        <button
+                            class="px-4 py-2 text-sm font-medium text-white bg-primary border border-transparent rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary shadow-sm shadow-blue-200"
+                            type="submit">
+                            Kaydet
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

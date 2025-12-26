@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html class="light" lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>VetClinic Pro - Yönetici Paneli</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#256af4",
+                        "primary-dark": "#1a4bb0",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-[#111318] dark:text-white h-screen overflow-hidden flex font-display antialiased">
+    <aside
+        class="w-64 bg-white dark:bg-[#1a202c] border-r border-[#f0f1f5] dark:border-gray-800 flex flex-col h-full flex-shrink-0 transition-all duration-300 z-20 hidden lg:flex">
+        <div class="h-16 flex items-center gap-3 px-6 border-b border-[#f0f1f5] dark:border-gray-800">
+            <div class="size-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+                <span class="material-symbols-outlined text-[24px]">pets</span>
+            </div>
+            <div class="flex flex-col">
+                <h1 class="text-base font-bold leading-none tracking-tight">VetClinic Pro</h1>
+                <p class="text-xs text-gray-500 mt-1">Yönetici Paneli</p>
+            </div>
+        </div>
+        <div class="flex-1 overflow-y-auto py-4 px-3 flex flex-col gap-1">
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-primary/10 text-primary group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]" data-weight="fill">dashboard</span>
+                <span class="text-sm font-medium">Gösterge Paneli</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]">group</span>
+                <span
+                    class="text-sm font-medium group-hover:text-[#111318] dark:group-hover:text-white">Kullanıcılar</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]">pets</span>
+                <span
+                    class="text-sm font-medium group-hover:text-[#111318] dark:group-hover:text-white">Hayvanlar</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]">calendar_month</span>
+                <span
+                    class="text-sm font-medium group-hover:text-[#111318] dark:group-hover:text-white">Randevular</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]">medical_services</span>
+                <span
+                    class="text-sm font-medium group-hover:text-[#111318] dark:group-hover:text-white">Tedaviler</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]">payments</span>
+                <span class="text-sm font-medium group-hover:text-[#111318] dark:group-hover:text-white">Ödemeler</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]">bar_chart</span>
+                <span class="text-sm font-medium group-hover:text-[#111318] dark:group-hover:text-white">Raporlar</span>
+            </a>
+            <div class="h-px bg-gray-100 dark:bg-gray-800 my-2 mx-3"></div>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]">cloud</span>
+                <span class="text-sm font-medium group-hover:text-[#111318] dark:group-hover:text-white">Hava
+                    Durumu</span>
+            </a>
+            <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 group transition-colors"
+                href="#">
+                <span class="material-symbols-outlined text-[22px]">settings</span>
+                <span class="text-sm font-medium group-hover:text-[#111318] dark:group-hover:text-white">Arayüz
+                    Ayarları</span>
+            </a>
+        </div>
+        <div class="p-4 border-t border-[#f0f1f5] dark:border-gray-800">
+            <button
+                class="flex w-full items-center gap-3 px-3 py-2 rounded-lg text-red-500 hover:bg-red-50 dark:hover:bg-red-900/10 transition-colors">
+                <span class="material-symbols-outlined text-[22px]">logout</span>
+                <span class="text-sm font-medium">Çıkış Yap</span>
+            </button>
+        </div>
+    </aside>
+    <main class="flex-1 flex flex-col min-w-0 bg-background-light dark:bg-background-dark overflow-hidden relative">
+        <header
+            class="bg-white dark:bg-[#1a202c] border-b border-[#f0f1f5] dark:border-gray-800 h-16 flex items-center justify-between px-6 z-10">
+            <div class="flex items-center gap-4 flex-1 max-w-xl">
+                <button class="lg:hidden text-gray-500 hover:text-gray-700">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                <div class="relative w-full max-w-md hidden md:block">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+                        <span class="material-symbols-outlined text-[20px]">search</span>
+                    </span>
+                    <input
+                        class="w-full h-10 pl-10 pr-4 bg-[#f0f1f5] dark:bg-gray-800 border-none rounded-lg text-sm focus:ring-2 focus:ring-primary/50 text-[#111318] dark:text-white placeholder-gray-400"
+                        placeholder="Hasta, randevu veya işlem ara..." type="text" />
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="hidden sm:flex items-center gap-2 px-3 py-1.5 bg-[#f0f1f5] dark:bg-gray-800 rounded-lg">
+                    <span class="material-symbols-outlined text-orange-500 text-[20px]">wb_sunny</span>
+                    <span class="text-sm font-semibold text-[#111318] dark:text-white">22°C</span>
+                </div>
+                <button
+                    class="relative p-2 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors">
+                    <span class="material-symbols-outlined text-[24px]">notifications</span>
+                    <span
+                        class="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full border border-white dark:border-[#1a202c]"></span>
+                </button>
+                <div class="h-8 w-px bg-gray-200 dark:bg-gray-700 mx-1"></div>
+                <button
+                    class="flex items-center gap-2 p-1 pl-2 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors">
+                    <div class="text-right hidden sm:block">
+                        <p class="text-sm font-semibold text-[#111318] dark:text-white leading-tight">Dr. Ece Y.</p>
+                        <p class="text-xs text-gray-500">Başhekim</p>
+                    </div>
+                    <div class="size-9 rounded-full bg-cover bg-center border border-gray-200 dark:border-gray-700"
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC7Ls6vbuqYbdIGhH8tPQoKNBqvpQEM9vrq5NyE7myvJ82IWlhHcPj_GlRDoeT2Z63GE0wSkcAkYi5sk6BNup2o9O0kKtwVluPNYOMsXAUJFh3oNOaBHRpKS7Pr5GHCKWxo3D7_qlbErZFGbPDxQyvF-m0TVGqRmleSrfw1DvGFMXMNACE0rCfWsGeM8-NciUJtynNFsxF5S8c-lG_RRcwdsRAWAwuGCfRYFU2SX9f9x8uqJ-B0jv_jaVFo6G9tAlMoykPxJ-DmVnY');">
+                    </div>
+                </button>
+            </div>
+        </header>
+        <div class="flex-1 overflow-y-auto p-6 md:p-8 scroll-smooth">
+            <div class="max-w-[1200px] mx-auto flex flex-col gap-6">
+                <div class="flex items-center justify-between mb-2">
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-tight text-[#111318] dark:text-white">Yönetim Paneli</h2>
+                        <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Klinik durumunu ve günlük aktiviteleri
+                            buradan izleyin.</p>
+                    </div>
+                    <span
+                        class="px-3 py-1 bg-green-50 text-green-600 dark:bg-green-900/20 dark:text-green-400 rounded-full text-xs font-semibold border border-green-100 dark:border-green-800 flex items-center gap-1.5">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                        </span>
+                        Sistem Çevrimiçi
+                    </span>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div
+                        class="bg-white dark:bg-[#1a202c] p-5 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm flex flex-col justify-between h-full hover:shadow-md transition-shadow">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Bugünkü Randevular</p>
+                                <h3 class="text-2xl font-bold text-[#111318] dark:text-white mt-1">24</h3>
+                            </div>
+                            <div
+                                class="size-10 rounded-lg bg-blue-50 dark:bg-blue-900/20 text-blue-600 flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined">calendar_today</span>
+                            </div>
+                        </div>
+                        <button
+                            class="mt-4 w-full text-xs font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 border border-blue-100 dark:border-blue-900/30 bg-blue-50/50 dark:bg-blue-900/10 rounded-md py-2 px-3 transition-colors flex items-center justify-center gap-1">
+                            Randevuları Gör <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+                        </button>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-[#1a202c] p-5 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm flex flex-col justify-between h-full hover:shadow-md transition-shadow">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Günlük Ciro</p>
+                                <h3 class="text-2xl font-bold text-[#111318] dark:text-white mt-1">₺8,450</h3>
+                            </div>
+                            <div
+                                class="size-10 rounded-lg bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined">payments</span>
+                            </div>
+                        </div>
+                        <button
+                            class="mt-4 w-full text-xs font-medium text-emerald-600 hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300 border border-emerald-100 dark:border-emerald-900/30 bg-emerald-50/50 dark:bg-emerald-900/10 rounded-md py-2 px-3 transition-colors flex items-center justify-center gap-1">
+                            Kasa Detayı <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+                        </button>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-[#1a202c] p-5 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm flex flex-col justify-between h-full hover:shadow-md transition-shadow">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Aylık Gelir</p>
+                                <h3 class="text-2xl font-bold text-[#111318] dark:text-white mt-1">₺148,250</h3>
+                            </div>
+                            <div
+                                class="size-10 rounded-lg bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined">bar_chart</span>
+                            </div>
+                        </div>
+                        <button
+                            class="mt-4 w-full text-xs font-medium text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300 border border-indigo-100 dark:border-indigo-900/30 bg-indigo-50/50 dark:bg-indigo-900/10 rounded-md py-2 px-3 transition-colors flex items-center justify-center gap-1">
+                            Gelir Raporu <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+                        </button>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-[#1a202c] p-5 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm flex flex-col justify-between h-full hover:shadow-md transition-shadow">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Toplam Müşteri</p>
+                                <h3 class="text-2xl font-bold text-[#111318] dark:text-white mt-1">1,240</h3>
+                            </div>
+                            <div
+                                class="size-10 rounded-lg bg-orange-50 dark:bg-orange-900/20 text-orange-600 flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined">group</span>
+                            </div>
+                        </div>
+                        <button
+                            class="mt-4 w-full text-xs font-medium text-orange-600 hover:text-orange-700 dark:text-orange-400 dark:hover:text-orange-300 border border-orange-100 dark:border-orange-900/30 bg-orange-50/50 dark:bg-orange-900/10 rounded-md py-2 px-3 transition-colors flex items-center justify-center gap-1">
+                            Kullanıcılar <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 h-auto lg:h-[400px]">
+                    <div
+                        class="bg-white dark:bg-[#1a202c] rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm flex flex-col h-full overflow-hidden">
+                        <div
+                            class="px-5 py-4 border-b border-gray-100 dark:border-gray-800 flex justify-between items-center bg-gray-50/30 dark:bg-gray-800/20 shrink-0">
+                            <h3 class="font-bold text-[#111318] dark:text-white flex items-center gap-2">
+                                Son Randevular
+                            </h3>
+                            <a class="text-xs font-medium text-primary hover:text-primary-dark transition-colors"
+                                href="#">Tümünü Gör</a>
+                        </div>
+                        <div class="flex-1 overflow-y-auto p-0 scrollbar-hide">
+                            <table class="w-full text-left border-collapse">
+                                <thead
+                                    class="bg-gray-50/50 dark:bg-gray-800/50 text-xs text-gray-500 uppercase font-medium sticky top-0 backdrop-blur-sm z-10">
+                                    <tr>
+                                        <th class="px-5 py-3 font-semibold">Saat</th>
+                                        <th class="px-5 py-3 font-semibold">Hayvan</th>
+                                        <th class="px-5 py-3 font-semibold">Sahibi</th>
+                                        <th class="px-5 py-3 font-semibold text-right">Durum</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-50 dark:divide-gray-800 text-sm">
+                                    <tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+                                        <td class="px-5 py-3.5 text-gray-500 dark:text-gray-400 font-mono text-xs">09:30
+                                        </td>
+                                        <td class="px-5 py-3.5 font-medium text-[#111318] dark:text-white">
+                                            <div class="flex items-center gap-2.5">
+                                                <div
+                                                    class="size-8 rounded-full bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 flex items-center justify-center text-xs font-bold">
+                                                    P</div>
+                                                Pamuk
+                                            </div>
+                                        </td>
+                                        <td class="px-5 py-3.5 text-gray-600 dark:text-gray-300">Ayşe Demir</td>
+                                        <td class="px-5 py-3.5 text-right">
+                                            <span
+                                                class="inline-flex items-center px-2 py-1 rounded text-[10px] font-bold uppercase tracking-wide bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 border border-blue-100 dark:border-blue-900/50">Planlandı</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+                                        <td class="px-5 py-3.5 text-gray-500 dark:text-gray-400 font-mono text-xs">10:15
+                                        </td>
+                                        <td class="px-5 py-3.5 font-medium text-[#111318] dark:text-white">
+                                            <div class="flex items-center gap-2.5">
+                                                <div
+                                                    class="size-8 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 flex items-center justify-center text-xs font-bold">
+                                                    K</div>
+                                                Karabaş
+                                            </div>
+                                        </td>
+                                        <td class="px-5 py-3.5 text-gray-600 dark:text-gray-300">Mehmet Yılmaz</td>
+                                        <td class="px-5 py-3.5 text-right">
+                                            <span
+                                                class="inline-flex items-center px-2 py-1 rounded text-[10px] font-bold uppercase tracking-wide bg-emerald-50 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300 border border-emerald-100 dark:border-emerald-900/50">Tamamlandı</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+                                        <td class="px-5 py-3.5 text-gray-500 dark:text-gray-400 font-mono text-xs">11:00
+                                        </td>
+                                        <td class="px-5 py-3.5 font-medium text-[#111318] dark:text-white">
+                                            <div class="flex items-center gap-2.5">
+                                                <div
+                                                    class="size-8 rounded-full bg-yellow-100 dark:bg-yellow-900/30 text-yellow-600 dark:text-yellow-400 flex items-center justify-center text-xs font-bold">
+                                                    L</div>
+                                                Limon
+                                            </div>
+                                        </td>
+                                        <td class="px-5 py-3.5 text-gray-600 dark:text-gray-300">Selin Çelik</td>
+                                        <td class="px-5 py-3.5 text-right">
+                                            <span
+                                                class="inline-flex items-center px-2 py-1 rounded text-[10px] font-bold uppercase tracking-wide bg-red-50 text-red-700 dark:bg-red-900/40 dark:text-red-300 border border-red-100 dark:border-red-900/50">İptal</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+                                        <td class="px-5 py-3.5 text-gray-500 dark:text-gray-400 font-mono text-xs">13:45
+                                        </td>
+                                        <td class="px-5 py-3.5 font-medium text-[#111318] dark:text-white">
+                                            <div class="flex items-center gap-2.5">
+                                                <div
+                                                    class="size-8 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 flex items-center justify-center text-xs font-bold">
+                                                    B</div>
+                                                Boncuk
+                                            </div>
+                                        </td>
+                                        <td class="px-5 py-3.5 text-gray-600 dark:text-gray-300">Ali Kaya</td>
+                                        <td class="px-5 py-3.5 text-right">
+                                            <span
+                                                class="inline-flex items-center px-2 py-1 rounded text-[10px] font-bold uppercase tracking-wide bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 border border-blue-100 dark:border-blue-900/50">Planlandı</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+                                        <td class="px-5 py-3.5 text-gray-500 dark:text-gray-400 font-mono text-xs">14:30
+                                        </td>
+                                        <td class="px-5 py-3.5 font-medium text-[#111318] dark:text-white">
+                                            <div class="flex items-center gap-2.5">
+                                                <div
+                                                    class="size-8 rounded-full bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-400 flex items-center justify-center text-xs font-bold">
+                                                    M</div>
+                                                Minnoş
+                                            </div>
+                                        </td>
+                                        <td class="px-5 py-3.5 text-gray-600 dark:text-gray-300">Zeynep Şahin</td>
+                                        <td class="px-5 py-3.5 text-right">
+                                            <span
+                                                class="inline-flex items-center px-2 py-1 rounded text-[10px] font-bold uppercase tracking-wide bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 border border-blue-100 dark:border-blue-900/50">Planlandı</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-[#1a202c] rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm flex flex-col h-full overflow-hidden">
+                        <div
+                            class="px-5 py-4 border-b border-gray-100 dark:border-gray-800 flex justify-between items-center bg-gray-50/30 dark:bg-gray-800/20 shrink-0">
+                            <h3 class="font-bold text-[#111318] dark:text-white">Randevu Durumları Dağılımı</h3>
+                            <span
+                                class="inline-flex items-center gap-1.5 px-2 py-1 rounded text-[10px] font-bold uppercase tracking-wide bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300">
+                                <span class="relative flex h-2 w-2">
+                                    <span
+                                        class="animate-pulse absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                                </span>
+                                Canlı Güncellenir
+                            </span>
+                        </div>
+                        <div class="flex-1 p-6 flex flex-col items-center justify-center">
+                            <div class="relative size-48 md:size-56">
+                                <svg class="size-full -rotate-90 transform" viewBox="0 0 100 100">
+                                    <circle class="text-gray-100 dark:text-gray-800" cx="50" cy="50" fill="transparent"
+                                        r="40" stroke="currentColor" stroke-width="12"></circle>
+                                    <circle class="text-emerald-500" cx="50" cy="50" fill="transparent" r="40"
+                                        stroke="currentColor" stroke-dasharray="150.8 251.2" stroke-dashoffset="0"
+                                        stroke-linecap="round" stroke-width="12"></circle>
+                                    <circle class="text-blue-500" cx="50" cy="50" fill="transparent" r="40"
+                                        stroke="currentColor" stroke-dasharray="62.8 251.2" stroke-dashoffset="-160"
+                                        stroke-linecap="round" stroke-width="12"></circle>
+                                    <circle class="text-red-500" cx="50" cy="50" fill="transparent" r="40"
+                                        stroke="currentColor" stroke-dasharray="37.7 251.2" stroke-dashoffset="-230"
+                                        stroke-linecap="round" stroke-width="12"></circle>
+                                </svg>
+                                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                                    <span class="text-3xl font-bold text-[#111318] dark:text-white">24</span>
+                                    <span class="text-xs text-gray-500 dark:text-gray-400 font-medium">Toplam</span>
+                                </div>
+                            </div>
+                            <div class="mt-6 flex w-full justify-center gap-6">
+                                <div class="flex items-center gap-2">
+                                    <span class="size-3 rounded-full bg-emerald-500"></span>
+                                    <div class="flex flex-col">
+                                        <span
+                                            class="text-xs font-medium text-gray-500 dark:text-gray-400">Tamamlandı</span>
+                                        <span class="text-sm font-bold text-[#111318] dark:text-white">60%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="size-3 rounded-full bg-blue-500"></span>
+                                    <div class="flex flex-col">
+                                        <span
+                                            class="text-xs font-medium text-gray-500 dark:text-gray-400">Planlandı</span>
+                                        <span class="text-sm font-bold text-[#111318] dark:text-white">25%</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="size-3 rounded-full bg-red-500"></span>
+                                    <div class="flex flex-col">
+                                        <span class="text-xs font-medium text-gray-500 dark:text-gray-400">İptal</span>
+                                        <span class="text-sm font-bold text-[#111318] dark:text-white">15%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                    <button
+                        class="bg-white dark:bg-[#1a202c] p-6 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md hover:border-primary/50 dark:hover:border-primary/50 transition-all group flex flex-col items-center justify-center gap-3">
+                        <div
+                            class="size-14 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-[32px]">add</span>
+                        </div>
+                        <h3
+                            class="font-bold text-lg text-[#111318] dark:text-white group-hover:text-primary transition-colors">
+                            Yeni Randevu</h3>
+                    </button>
+                    <button
+                        class="bg-white dark:bg-[#1a202c] p-6 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md hover:border-emerald-500/50 dark:hover:border-emerald-500/50 transition-all group flex flex-col items-center justify-center gap-3">
+                        <div
+                            class="size-14 rounded-full bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-[32px]">credit_card</span>
+                        </div>
+                        <h3
+                            class="font-bold text-lg text-[#111318] dark:text-white group-hover:text-emerald-600 transition-colors">
+                            Ödeme Al</h3>
+                    </button>
+                    <button
+                        class="bg-white dark:bg-[#1a202c] p-6 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md hover:border-orange-500/50 dark:hover:border-orange-500/50 transition-all group flex flex-col items-center justify-center gap-3">
+                        <div
+                            class="size-14 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-600 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-[32px]">pets</span>
+                        </div>
+                        <h3
+                            class="font-bold text-lg text-[#111318] dark:text-white group-hover:text-orange-600 transition-colors">
+                            Hayvan Ekle</h3>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -5,6 +5,66 @@
       "PackagePath": "staticwebassets/WebUI.bundle.scp.css"
     },
     {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/AddAppointment.html",
+      "PackagePath": "staticwebassets/Admin-s/AddAppointment.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/AddBlog.html",
+      "PackagePath": "staticwebassets/Admin-s/AddBlog.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/AddPayment.html",
+      "PackagePath": "staticwebassets/Admin-s/AddPayment.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/AddTreatment.html",
+      "PackagePath": "staticwebassets/Admin-s/AddTreatment.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/AddUser.html",
+      "PackagePath": "staticwebassets/Admin-s/AddUser.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/Animal.html",
+      "PackagePath": "staticwebassets/Admin-s/Animal.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/Appointment.html",
+      "PackagePath": "staticwebassets/Admin-s/Appointment.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/Edit-Animal.html",
+      "PackagePath": "staticwebassets/Admin-s/Edit-Animal.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/Payment.html",
+      "PackagePath": "staticwebassets/Admin-s/Payment.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/Treatment.html",
+      "PackagePath": "staticwebassets/Admin-s/Treatment.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/User.html",
+      "PackagePath": "staticwebassets/Admin-s/User.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/dahboard.html",
+      "PackagePath": "staticwebassets/Admin-s/dahboard.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/index.html",
+      "PackagePath": "staticwebassets/Admin-s/index.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/payment-add.html",
+      "PackagePath": "staticwebassets/Admin-s/payment-add.html"
+    },
+    {
+      "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/Admin-s/settings.html",
+      "PackagePath": "staticwebassets/Admin-s/settings.html"
+    },
+    {
       "Id": "/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/wwwroot/VetLife/blog.html",
       "PackagePath": "staticwebassets/VetLife/blog.html"
     },

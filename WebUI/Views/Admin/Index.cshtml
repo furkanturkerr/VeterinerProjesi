@@ -5,23 +5,21 @@
 }
 
 <!DOCTYPE html>
-<html lang="tr">
+<html class="light" lang="tr">
+
 @await Component.InvokeAsync("_LayoutHeaderComponent")
-<body class="g-sidenav-show   bg-gray-100">
-<div class="min-height-300 bg-dark position-absolute w-100"></div>
-@await Component.InvokeAsync("_LayoutSidebarComponent")
-  <main class="main-content position-relative border-radius-lg ">
-    @await Component.InvokeAsync("_LayoutNavbarComponent")
-    <div class="container-fluid py-4">
-      <div class="row">
-        <div class="col-12">
-              @RenderBody()
+
+<body class="bg-background-light text-text-main h-screen overflow-hidden flex">
+    @await Component.InvokeAsync("_LayoutSidebarComponent")
+
+    @await Component.InvokeAsync("_LayoutSidebarComponent")
+    <div aria-labelledby="modal-title" aria-modal="true" class="hidden fixed inset-0 z-50 overflow-y-auto"
+        id="new-appointment-modal" role="dialog">
+        <div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+            @RenderBody()
         </div>
-      </div>
-      @await Component.InvokeAsync("_LayoutFooterComponent")
     </div>
-  </main>
-  @await Component.InvokeAsync("_LayoutScriptComponent")
+
 </body>
 
 </html>
