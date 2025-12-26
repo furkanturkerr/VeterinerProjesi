@@ -4,38 +4,128 @@
     Layout = "~/Views/Admin/index.cshtml";
 }
 
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-white" href="javascript:;">Admin</a></li>
-        <li class="breadcrumb-item text-sm text-white active" aria-current="page">Anasayfa</li>
-    </ol>
-    <h6 class="font-weight-bolder text-white mb-0">Hakkımızda Alanını Güncelle</h6>
-</nav>
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4" xmlns="http://www.w3.org/1999/html">
+    <div>
+        <h2 class="text-2xl font-bold text-text-main">Hakkımızda Alanı Güncelle</h2>
+    </div>
+</div>
 <br/>
 
-<form method="post" class="form-control">
-    <input type="hidden" asp-for="@Model.AboutId"/>
-    <label for="Title">Başlık</label>
-    <input type="text" value="@Model.Title" asp-for="@Model.Title" class="form-control" id="Title"/>
-    <br/>
-    <label for="TitleGreen">Başlık Yeşil</label>
-    <input type="text" value="@Model.TitleGreen" asp-for="@Model.TitleGreen" class="form-control" id="TitleGreen"/>
-    <br/>
-    <label for="Description">Açıklama</label>
-    <textarea type="text" value="@Model.Description" asp-for="@Model.Description" rows="6" class="form-control" id="Description"></textarea>
-    <br/>
-    <br/>
-    <label for="Image1">Görsel - 1</label>
-    <input type="text" value="@Model.Image1" asp-for="@Model.Image1" class="form-control" id="Image1"/>
-    <br/>
-    <label for="Image2">Görsel - 2</label>
-    <input type="text" value="@Model.Image2" asp-for="@Model.Image2" class="form-control" id="Image2"/>
-    <br/>
-    <label for="Image3">Görsel - 3</label>
-    <input type="text" value="@Model.Image3" asp-for="@Model.Image3" class="form-control" id="Image3"/>
-    <br/>
-    <label for="Image4">Görsel - 4</label>
-    <input type="text" value="@Model.Image4" asp-for="@Model.Image4" class="form-control" id="Image4"/>
-    <br/>
-    <button class="btn btn-outline-warning">Güncelle</button>
-</form>
+<div class="w-full bg-white dark:bg-[#1a202c] rounded-xl shadow-[0_2px_12px_-4px_rgba(0,0,0,0.08)] border border-slate-200 dark:border-slate-800 overflow-hidden">
+                    <div class="p-6 md:p-8">
+                        <form method="post" class="space-y-6">
+                            <input type="hidden" asp-for="@Model.AboutId"/>
+                            <!-- Section: General Info -->
+                            <div class="space-y-6">
+                                <div class="grid grid-cols-1 gap-6">
+                                    <!-- Field: Title -->
+                                    <div class="space-y-2">
+                                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                                               for="title">Başlık</label>
+                                        <input
+                                            class="w-full h-12 px-4 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-primary/20 focus:border-primary text-text-main dark:text-white placeholder-text-secondary transition-all"
+                                            id="title" type="text"
+                                            value="@Model.Title" asp-for="Title"/>
+                                    </div>
+                                    <!-- Field: Highlight Title -->
+                                    <div class="space-y-2">
+                                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                                               for="highlight-title">Yeşil Vurgulu Başlık</label>
+                                        <div class="relative">
+                                            <input
+                                                class="w-full h-12 px-4 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-green-500/20 focus:border-green-500 text-text-main dark:text-white placeholder-text-secondary transition-all"
+                                                id="highlight-title" type="text"
+                                                value="@Model.TitleGreen" asp-for="TitleGreen"/>
+                                            <div
+                                                class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                                                <span class="size-3 rounded-full bg-green-500"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="space-y-2">
+                                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                                               for="Description">Açıklama</label>
+                                        <div class="relative">
+                                            <textarea
+                                                class="w-full px-4 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-green-500/20 focus:border-green-500 text-text-main dark:text-white placeholder-text-secondary transition-all"
+                                                id="Description" type="text"
+                                                rows="6"
+                                                value="@Model.Description" asp-for="Description" >
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Section: Images -->
+                            <div class="space-y-6 pt-2">
+                                <h3
+                                    class="text-lg font-semibold text-text-main dark:text-white border-b border-border-light dark:border-border-dark pb-2">
+                                    Görseller</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <!-- Image 1 -->
+                                    <div class="space-y-2">
+                                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                                               for="img1">Görsel 1 URL</label>
+                                        <div class="flex items-center gap-2">
+                                            <span class="material-symbols-outlined text-text-secondary">image</span>
+                                            <input
+                                                class="w-full h-11 px-3 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-primary/20 focus:border-primary text-text-main dark:text-white placeholder-text-secondary text-sm transition-all"
+                                                id="img1" placeholder="https://..." type="url"
+                                                value="@Model.Image1" asp-for="Image1"/>
+                                        </div>
+                                    </div>
+                                    <!-- Image 2 -->
+                                    <div class="space-y-2">
+                                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                                               for="img2">Görsel 2 URL</label>
+                                        <div class="flex items-center gap-2">
+                                            <span class="material-symbols-outlined text-text-secondary">image</span>
+                                            <input
+                                                class="w-full h-11 px-3 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-primary/20 focus:border-primary text-text-main dark:text-white placeholder-text-secondary text-sm transition-all"
+                                                id="img2" placeholder="https://..." type="url"
+                                                value="@Model.Image2" asp-for="Image2"/>
+                                        </div>
+                                    </div>
+                                    <!-- Image 3 -->
+                                    <div class="space-y-2">
+                                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                                               for="img3">Görsel 3 URL</label>
+                                        <div class="flex items-center gap-2">
+                                            <span class="material-symbols-outlined text-text-secondary">image</span>
+                                            <input
+                                                class="w-full h-11 px-3 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-primary/20 focus:border-primary text-text-main dark:text-white placeholder-text-secondary text-sm transition-all"
+                                                id="img3" placeholder="https://..." type="url" value="@Model.Image3" asp-for="Image3"/>
+                                        </div>
+                                    </div>
+                                    <!-- Image 4 -->
+                                    <div class="space-y-2">
+                                        <label class="text-sm font-medium text-text-main dark:text-gray-200 block"
+                                               for="img4">Görsel 4 URL</label>
+                                        <div class="flex items-center gap-2">
+                                            <span class="material-symbols-outlined text-text-secondary">image</span>
+                                            <input
+                                                class="w-full h-11 px-3 rounded-lg bg-background-light dark:bg-gray-800 border border-border-light dark:border-border-dark focus:ring-2 focus:ring-primary/20 focus:border-primary text-text-main dark:text-white placeholder-text-secondary text-sm transition-all"
+                                                id="img4" placeholder="https://..." type="url" value="@Model.Image4" asp-for="Image4"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-gray-50 dark:bg-gray-900/50 px-6 py-4 border-t border-border-light dark:border-border-dark flex items-center justify-end gap-3">
+                                <a
+                                    href="~/Admin/About"
+                                    class="px-5 py-2.5 rounded-lg text-sm font-semibold text-text-secondary hover:text-text-main hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+                                    type="button">
+                                    İptal
+                                </a>
+                                <button
+                                    class="px-6 py-2.5 rounded-lg text-sm font-semibold bg-primary text-white hover:bg-blue-600 focus:ring-4 focus:ring-blue-500/30 transition-all shadow-sm flex items-center gap-2">
+                                    <span class="material-symbols-outlined text-[20px]">save</span>
+                                    Kaydet
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
