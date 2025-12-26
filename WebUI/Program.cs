@@ -23,6 +23,8 @@ builder.Services.AddScoped<ISummaryService, SummaryManager>();
 builder.Services.AddScoped<ISummaryDal, EfSummaryDal>();
 builder.Services.AddScoped<IAboutService, AboutManager>();
 builder.Services.AddScoped<IAboutDal, EfAboutDal>();
+builder.Services.AddScoped<IServiceService, ServiceManager>();
+builder.Services.AddScoped<IServiceDal, EfServiceDal>();
 
 var app = builder.Build();
 
