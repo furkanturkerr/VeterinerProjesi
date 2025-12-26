@@ -43,7 +43,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "areas",
-    pattern: "{area:exists}/{controller=Hero}/{action=Index}/{id?}",
+    pattern: "{area:exists}/{controller=UISettings}/{action=Index}/{id?}",
     defaults: new { area = "Admin" }
 );
 
