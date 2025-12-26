@@ -27,14 +27,14 @@ public class HeroController : Controller
     }
 
     [HttpGet]
-    public IActionResult Update(int id)
+    public IActionResult UpdateHero(int id)
     {
         var values = _heroService.TGetById(id);
         return View(_mapper.Map<UpdateHeroDto>(values));
     }
 
     [HttpPost]
-    public IActionResult Update(UpdateHeroDto updateHeroDto)
+    public IActionResult UpdateHero(UpdateHeroDto updateHeroDto)
     {
         var heroEntity = _mapper.Map<Hero>(updateHeroDto);  
         _heroService.TUpdate(heroEntity);                  

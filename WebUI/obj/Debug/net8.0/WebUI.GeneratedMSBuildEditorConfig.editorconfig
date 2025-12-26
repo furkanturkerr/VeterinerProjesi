@@ -40,8 +40,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQW5pbWFsL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Hero/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSGVyby9VcGRhdGUuY3NodG1s
+[/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Hero/UpdateHero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSGVyby9VcGRhdGVIZXJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Summary/CreateSummary.cshtml]
