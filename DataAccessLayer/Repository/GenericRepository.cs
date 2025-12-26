@@ -10,7 +10,7 @@ public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         _vetContext = vetContext;
     }
-    
+
     public void Add(T entity)
     {
         _vetContext.Add(entity);

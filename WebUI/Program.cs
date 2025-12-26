@@ -27,6 +27,8 @@ builder.Services.AddScoped<IServiceService, ServiceManager>();
 builder.Services.AddScoped<IServiceDal, EfServiceDal>();
 builder.Services.AddScoped<ITeamService, TeamManager>();
 builder.Services.AddScoped<ITeamDal, EfTeamDal>();
+builder.Services.AddScoped<IUIAppointmentService, UIAppointmentManager>();
+builder.Services.AddScoped<IUIAppointmentDal, EfUIAppointmentDal>();
 
 var app = builder.Build();
 
