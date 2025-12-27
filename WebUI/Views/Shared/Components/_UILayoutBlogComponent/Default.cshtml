@@ -1,3 +1,4 @@
+@model List<DTOLayer.BlogDtos.ResultBlogDto>
 <section class="blog container" id="blog">
     <div class="blog-header">
         <span>📰 BLOG</span>
@@ -5,34 +6,17 @@
     </div>
 
     <div class="blog-grid">
-        <div class="blog-card">
-            <div class="blog-img">
-                <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e" alt="">
+        @foreach (var item in Model)
+        {
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="@item.Image" alt="">
+                </div>
+                <div class="blog-content">
+                    <h3>@item.Name</h3>
+                    <p>@item.Description</p>
+                </div>
             </div>
-            <div class="blog-content">
-                <h3>Evcil Hayvanlarda Düzenli Kontrolün Önemi</h3>
-                <p>Evcil dostlarınızın sağlıklı bir yaşam sürmesi için düzenli veteriner kontrollerinin önemi.</p>
-            </div>
-        </div>
-
-        <div class="blog-card">
-            <div class="blog-img">
-                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="">
-            </div>
-            <div class="blog-content">
-                <h3>Aşı Takvimi Nasıl Olmalı?</h3>
-                <p>Kedi ve köpekler için yaşa ve türe göre uygulanması gereken aşı programları.</p>
-            </div>
-        </div>
-
-        <div class="blog-card">
-            <div class="blog-img">
-                <img src="https://images.unsplash.com/photo-1558944351-c9c7f07b4a4e" alt="">
-            </div>
-            <div class="blog-content">
-                <h3>Evcil Hayvan Beslenme Rehberi</h3>
-                <p>Sağlıklı ve dengeli beslenme ile evcil dostlarınızın yaşam kalitesini artırın.</p>
-            </div>
-        </div>
+        }
     </div>
 </section>

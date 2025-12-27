@@ -1,3 +1,4 @@
+@model List<DTOLayer.TeamDtos.ResultTeamDto>
 <section class="team container" id="ekibimiz">
     <div class="team-header">
         <span>👩‍⚕️ EKİBİMİZ</span>
@@ -5,40 +6,18 @@
     </div>
 
     <div class="team-grid">
-        <div class="team-card">
-            <div class="team-img">
-                <img src="https://i.imgur.com/5cX1Z4G.png" alt="">
+        @foreach (var item in Model)
+        {
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="https://i.imgur.com/5cX1Z4G.png" alt="">
+                </div>
+                <h3>@item.TeamName</h3>
+                <span class="team-role">@item.TeamTitle</span>
+                <p>
+                    @item.TeamDescription
+                </p>
             </div>
-            <h3>Dr. Elif Yılmaz</h3>
-            <span class="team-role">Başhekim</span>
-            <p>
-                15 yıllık tecrübesiyle cerrahi operasyonlarda uzmanlaşmıştır.
-                Kedilere olan düşkünlüğü ile tanınır.
-            </p>
-        </div>
-
-        <div class="team-card">
-            <div class="team-img">
-                <img src="https://i.imgur.com/0y0y0y0.png" alt="">
-            </div>
-            <h3>Dr. Can Demir</h3>
-            <span class="team-role">Dahiliye Uzmanı</span>
-            <p>
-                Egzotik hayvanlar üzerine yaptığı çalışmalarla bilinir.
-                Kuşlar ve kemirgenler ilgi alanıdır.
-            </p>
-        </div>
-
-        <div class="team-card">
-            <div class="team-img">
-                <img src="https://i.imgur.com/Qp9Jx0P.png" alt="">
-            </div>
-            <h3>Ayşe Kaya</h3>
-            <span class="team-role">Veteriner Teknikeri</span>
-            <p>
-                Klinik süreçlerin düzenli ilerlemesini sağlar.
-                Hasta takibi ve laboratuvar analizlerinde titizdir.
-            </p>
-        </div>
+        }
     </div>
 </section>

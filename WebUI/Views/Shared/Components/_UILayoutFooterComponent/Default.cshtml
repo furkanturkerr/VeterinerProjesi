@@ -1,9 +1,10 @@
+@model DTOLayer.FooterDtos.ResultFooterDto
 <footer class="footer">
     <div class="container footer-grid">
         <div class="footer-col">
             <h3>VetLife</h3>
             <p>
-                Evcil dostlarınız için modern, güvenilir ve dijital veteriner çözümleri.
+                @Model.Description
             </p>
         </div>
 
@@ -20,9 +21,9 @@
         <div class="footer-col">
             <h4>İletişim</h4>
             <ul>
-                <li>📍 İstanbul / Türkiye</li>
-                <li>📞 +90 555 555 55 55</li>
-                <li>✉️ info@vetlife.com</li>
+                <li>📍 @Model.Address</li>
+                <li>📞 @Model.Phone</li>
+                <li>✉️ @Model.Email</li>
             </ul>
         </div>
     </div>

@@ -1,9 +1,10 @@
+@model DTOLayer.UIAppointmentDtos.ResultUIAppointmentDto
 <section class="appointment-cta">
     <div class="container cta-box">
         <div class="cta-text">
-            <h2>Evcil Dostunuz İçin Hemen <span>Randevu Alın</span></h2>
+            <h2>@Model.Text <span>@Model.ButtonText</span></h2>
             <p>
-                Dakikalar içinde online randevu oluşturun, bekleme süresini minimuma indirin.
+                @Model.Description
             </p>
         </div>
         <div class="cta-action">

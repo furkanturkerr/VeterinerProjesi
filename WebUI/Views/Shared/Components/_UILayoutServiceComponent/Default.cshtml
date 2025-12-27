@@ -1,3 +1,4 @@
+@model List<DTOLayer.ServiceDtos.ResultServiceDto>
 <section class="services container" id="hizmetler">
     <div class="services-header">
         <span>🔹 HİZMETLERİMİZ</span>
@@ -5,42 +6,13 @@
     </div>
 
     <div class="services-grid">
-        <div class="service-card">
-            <i class="fa-solid fa-stethoscope"></i>
-            <h3>Genel Muayene</h3>
-            <p>Evcil hayvanlarınız için kapsamlı sağlık kontrolleri</p>
-        </div>
-
-        <div class="service-card">
-            <i class="fa-solid fa-syringe"></i>
-            <h3>Aşılama Hizmetleri</h3>
-            <p>Yaş ve türe özel düzenli aşı takibi</p>
-        </div>
-
-        <div class="service-card">
-            <i class="fa-solid fa-hospital"></i>
-            <h3>Tedavi ve Müdahaleler</h3>
-            <p>Teşhis, tedavi ve sonrası takip süreçleri</p>
-        </div>
-
-        <div class="service-card">
-            <i class="fa-solid fa-clipboard-list"></i>
-            <h3>Dijital Sağlık Kayıtları</h3>
-            <p>Tüm sağlık geçmişi sistemde kayıt altında</p>
-        </div>
-
-        <div class="service-card">
-            <i class="fa-solid fa-credit-card"></i>
-            <h3>Ödeme ve Borç Takibi</h3>
-            <p>Şeffaf ve kontrollü finansal yönetim</p>
-        </div>
-
-        <div class="service-card">
-            <i class="fa-solid fa-bell-concierge"></i>
-            <h3>Akıllı Bildirimler & Hatırlatmalar</h3>
-            <p>Randevu tarihleri, aşı zamanları ve tedavi kontrolleri için otomatik bildirimler ile hiçbir detayı
-                kaçırmazsınız.
-            </p>
-        </div>
+        @foreach (var item in Model)
+        {
+            <div class="service-card">
+                <i class="@item.İcon"></i>
+                <h3>@item.ServiceName</h3>
+                <p>@item.ServiceDescription</p>
+            </div>
+        }
     </div>
 </section>
