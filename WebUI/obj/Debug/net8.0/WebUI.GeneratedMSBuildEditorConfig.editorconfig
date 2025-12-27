@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWJvdXQvVXBkYXRlQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Animal/CreateAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQW5pbWFsL0NyZWF0ZUFuaW1hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Animal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQW5pbWFsL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Animal/UpdateAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQW5pbWFsL1VwZGF0ZUFuaW1hbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Blog/CreateBlog.cshtml]
