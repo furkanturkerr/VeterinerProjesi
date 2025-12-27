@@ -31,6 +31,8 @@ builder.Services.AddScoped<IUIAppointmentService, UIAppointmentManager>();
 builder.Services.AddScoped<IUIAppointmentDal, EfUIAppointmentDal>();
 builder.Services.AddScoped<IBlogService, BlogManager>();
 builder.Services.AddScoped<IBlogDal, EfBlogDal>();
+builder.Services.AddScoped<IFooterService, FooterManager>();
+builder.Services.AddScoped<IFooterDal, EfFooterDal>();
 
 var app = builder.Build();
 
