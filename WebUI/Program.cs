@@ -34,6 +34,8 @@ builder.Services.AddScoped<IBlogDal, EfBlogDal>();
 builder.Services.AddScoped<IFooterService, FooterManager>();
 builder.Services.AddScoped<IFooterDal, EfFooterDal>();
 
+builder.Services.AddHttpClient();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

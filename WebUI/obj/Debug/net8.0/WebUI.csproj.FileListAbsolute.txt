@@ -146,3 +146,4 @@
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/DataAccessLayer.pdb
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/DTOLayer.pdb
 /Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/EntityLayer.pdb
+/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/bin/Debug/net8.0/Newtonsoft.Json.dll
