@@ -11,4 +11,6 @@ public class Animal
     public string Species { get; set; }
     public string Breed { get; set; }
     public string MedicalHistory { get; set; }
+    
+    public List<Appointment> Appointments { get; set; }
 }

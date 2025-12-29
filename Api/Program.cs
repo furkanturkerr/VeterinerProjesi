@@ -15,6 +15,8 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 builder.Services.AddScoped<IUowDal, UowDal>();
 builder.Services.AddScoped<IAnimalService, AnimalManager>();
 builder.Services.AddScoped<IAnimalDal, EfAnimalDal>();
+builder.Services.AddScoped<IAppointmentDal, EfAppointmentDal>();
+builder.Services.AddScoped<IAppointmentService, AppointmentManager>();
 
 builder.Services.AddControllers();
 

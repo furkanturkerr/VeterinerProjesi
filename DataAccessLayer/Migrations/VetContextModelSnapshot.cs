@@ -115,8 +115,11 @@ namespace DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AppointmentId"));
 
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("AnimalId")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("Date")
+                        .HasColumnType("date");
 
                     b.Property<string>("Notes")
                         .IsRequired()
@@ -129,6 +132,8 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("time");
 
                     b.HasKey("AppointmentId");
+
+                    b.HasIndex("AnimalId");
 
                     b.ToTable("Appointments");
                 });
@@ -415,6 +420,17 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("WeatherInfos");
                 });
 
+            modelBuilder.Entity("EntityLayer.Entities.Appointment", b =>
+                {
+                    b.HasOne("EntityLayer.Entities.Animal", "Animal")
+                        .WithMany("Appointments")
+                        .HasForeignKey("AnimalId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Animal");
+                });
+
             modelBuilder.Entity("EntityLayer.Entities.Payment", b =>
                 {
                     b.HasOne("EntityLayer.Entities.Appointment", "Appointment")
@@ -435,6 +451,11 @@ namespace DataAccessLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("Appointment");
+                });
+
+            modelBuilder.Entity("EntityLayer.Entities.Animal", b =>
+                {
+                    b.Navigation("Appointments");
                 });
 
             modelBuilder.Entity("EntityLayer.Entities.Appointment", b =>

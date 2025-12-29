@@ -1,7 +1,7 @@
 namespace EntityLayer.Enums;
 public enum AppointmentStatus
 {
-    Scheduled = 0,
-    Completed = 1,
-    Cancelled = 2
+    Planlanmış = 0,
+    Tamamlanmış = 1,
+    İptal = 2
 }
