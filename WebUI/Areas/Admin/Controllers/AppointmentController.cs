@@ -20,6 +20,20 @@ public class AppointmentController : Controller
         _mapper = mapper;
         _animalService = animalService;
     }
+    
+    public IActionResult ChangeStatusTrue(int id)
+    {
+        var animal = _animalService.TGetById(id);
+        _appointmentService.TChangeStatusTrue(id);
+        return RedirectToAction("Index");
+    }
+    
+    public IActionResult ChangeStatusFalse(int id)
+    {
+        var animal = _animalService.TGetById(id);
+        _appointmentService.TChangeStatusFalse(id);
+        return RedirectToAction("Index");
+    }
 
     [HttpGet]
     public IActionResult Index()

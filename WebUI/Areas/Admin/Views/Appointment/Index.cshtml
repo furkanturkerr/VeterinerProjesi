@@ -1,3 +1,4 @@
+@using EntityLayer.Enums
 @model System.Collections.Generic.List<DTOLayer.AppointmentDtos.ResultAppointmentDto>?
 
 @{
@@ -101,30 +102,52 @@
                                     <span class="text-sm text-text-main">@item.Notes</span>
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap">
-                                    <span
-                                        class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                                        <span class="size-1.5 rounded-full bg-blue-600 mr-1.5"></span>
-                                        @item.Status
-                                    </span>
+                                    @switch (item.Status)
+                                    {
+                                        case AppointmentStatus.Planlanmış:
+                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                                                <span class="size-1.5 rounded-full bg-blue-600 mr-1.5"></span>
+                                                Planlanmış
+                                            </span>
+                                            break;
+
+                                        case AppointmentStatus.Tamamlanmış:
+                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                                <span class="size-1.5 rounded-full bg-green-600 mr-1.5"></span>
+                                                Tamamlanmış
+                                            </span>
+                                            break;
+
+                                        case AppointmentStatus.İptal:
+                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
+                                                <span class="size-1.5 rounded-full bg-red-600 mr-1.5"></span>
+                                                İptal
+                                            </span>
+                                            break;
+                                    }
                                 </td>
+
+
                                 <td class="px-6 py-4 whitespace-nowrap text-right">
                                     <div class="flex items-center justify-end gap-2">
-                                        <button
+                                        <a
+                                            href="~/Admin/Appointment/ChangeStatusTrue/@item.AppointmentId"
                                             class="p-1.5 text-green-600 hover:bg-green-50 rounded-lg transition-colors"
                                             title="Onayla">
                                             <span class="material-symbols-outlined text-[18px]">check_circle</span>
-                                        </button>
+                                        </a>
                                         <a
                                             href="/Admin/Appointment/UpdateAppointment/@item.AppointmentId"
                                             class="p-1.5 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
                                             title="Görüntüle">
                                             <span class="material-symbols-outlined text-[18px]">visibility</span>
                                         </a>
-                                        <button
+                                        <a
+                                            href="~/Admin/Appointment/ChangeStatusFalse/@item.AppointmentId"
                                             class="p-1.5 text-red-500 hover:bg-red-50 rounded-lg transition-colors"
                                             title="İptal Et">
                                             <span class="material-symbols-outlined text-[18px]">cancel</span>
-                                        </button>
+                                        </a>
                                     </div>
                                 </td>
                             </tr>

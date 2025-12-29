@@ -48,4 +48,16 @@ public class AppointmentManager : IAppointmentService
     {
         return _appointmentDal.ListAnimal();
     }
+
+    public void TChangeStatusTrue(int id)
+    {
+        _appointmentDal.ChangeStatusTrue(id);
+        _uowDal.Save();
+    }
+
+    public void TChangeStatusFalse(int id)
+    {
+        _appointmentDal.ChangeStatusFalse(id);
+        _uowDal.Save();
+    }
 }
