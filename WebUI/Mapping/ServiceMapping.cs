@@ -11,6 +11,5 @@ public class ServiceMapping : Profile
         CreateMap<Service, ResultServiceDto>().ReverseMap();
         CreateMap<Service, CreateServiceDto>().ReverseMap();
         CreateMap<Service, UpdateServiceDto>().ReverseMap();
-        CreateMap<Service, GetServiceDto>().ReverseMap();
     }
 }

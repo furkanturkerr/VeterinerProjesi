@@ -124,6 +124,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGVhbS9VcGRhdGVUZWFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Treatment/CreateTreatment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVHJlYXRtZW50L0NyZWF0ZVRyZWF0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Treatment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVHJlYXRtZW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/Treatment/UpdateTreatment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVHJlYXRtZW50L1VwZGF0ZVRyZWF0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/furkanturker/RiderProjects/VeterinerProjesi /WebUI/Areas/Admin/Views/UIAppointment/CreateUIAppointment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVUlBcHBvaW50bWVudC9DcmVhdGVVSUFwcG9pbnRtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

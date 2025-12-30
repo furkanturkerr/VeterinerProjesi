@@ -11,6 +11,5 @@ public class BlogMapping : Profile
         CreateMap<Blog, ResultBlogDto>().ReverseMap();
         CreateMap<Blog, CreateBlogDto>().ReverseMap();
         CreateMap<Blog, UpdateBlogDto>().ReverseMap();
-        CreateMap<Blog, GetBlogDto>().ReverseMap();
     }
 }

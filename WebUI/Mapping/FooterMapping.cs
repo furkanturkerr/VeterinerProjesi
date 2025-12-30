@@ -11,6 +11,5 @@ public class FooterMapping : Profile
         CreateMap<Footer, ResultFooterDto>().ReverseMap();
         CreateMap<Footer, CreateFooterDto>().ReverseMap();
         CreateMap<Footer, UpdateFooterDto>().ReverseMap();
-        CreateMap<Footer, GetFooterDto>().ReverseMap();
     }
 }

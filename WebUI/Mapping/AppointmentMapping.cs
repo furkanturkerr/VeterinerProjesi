@@ -11,7 +11,6 @@ public class AppointmentMapping : Profile
     {
         CreateMap<Appointment, ResultAppointmentDto>().ReverseMap();
         CreateMap<Appointment, CreateAppointmentDto>().ReverseMap();
-        CreateMap<Appointment, GetAppointmentDto>().ReverseMap();
         CreateMap<Appointment, UpdateAppointmentDto>().ReverseMap();
     }
 }

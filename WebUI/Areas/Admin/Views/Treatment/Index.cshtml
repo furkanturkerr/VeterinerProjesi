@@ -1,0 +1,103 @@
+@model System.Collections.Generic.List<DTOLayer.TreatmentDtos.ResultTreatmentDto>
+
+@{
+    Layout = "~/Views/Admin/index.cshtml";
+}
+
+<div class="flex-1 overflow-y-auto p-8 scroll-smooth">
+            <div class="max-w-7xl mx-auto flex flex-col gap-8 pb-12">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h2 class="text-2xl font-bold text-text-main">Tedaviler</h2>
+                        <p class="text-sm text-text-secondary mt-1">Klinik bünyesinde gerçekleştirilen tüm tıbbi
+                            işlemler ve kayıtlar.</p>
+                    </div>
+                    <a
+                        href="~/Admin/Treatment/CreateTreatment"
+                        class="bg-primary hover:bg-blue-600 text-white px-5 py-2.5 rounded-xl text-sm font-medium transition-all flex items-center gap-2 shadow-lg shadow-blue-200 hover:-translate-y-0.5 cursor-pointer select-none"
+                        for="modal-toggle">
+                        <span class="material-symbols-outlined text-[20px]">add</span>
+                        Tedavi Ekle
+                    </a>
+                </div>
+                <div
+                    class="bg-surface-white rounded-2xl border border-gray-200 shadow-soft overflow-hidden flex flex-col">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-gray-50/50 border-b border-gray-100">
+                                    <th
+                                        class="px-6 py-4 text-xs font-semibold text-text-secondary uppercase tracking-wider">
+                                        Tedavi Adı</th>
+                                    <th
+                                        class="px-6 py-4 text-xs font-semibold text-text-secondary uppercase tracking-wider">
+                                        Randevu ID</th>
+                                    <th
+                                        class="px-6 py-4 text-xs font-semibold text-text-secondary uppercase tracking-wider w-1/3">
+                                        Tedavi Açıklaması</th>
+                                    <th
+                                        class="px-6 py-4 text-xs font-semibold text-text-secondary uppercase tracking-wider">
+                                        Tedavi Tarihi</th>
+                                    <th
+                                        class="px-6 py-4 text-xs font-semibold text-text-secondary uppercase tracking-wider text-right">
+                                        Tedavi Ücreti</th>
+                                    <th
+                                        class="px-6 py-4 text-xs font-semibold text-text-secondary uppercase tracking-wider text-right">
+                                        İşlemler</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                            @foreach (var item in Model)
+                            {
+                                <tr class="hover:bg-gray-50/50 transition-colors">
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center gap-3">
+                                        <div
+                                            class="size-8 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600 shrink-0">
+                                            <span class="material-symbols-outlined text-[18px]">vaccines</span>
+                                        </div>
+                                        <span class="text-sm font-semibold text-text-main">@item.TreatmentType</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span
+                                        class="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200 font-mono tracking-wide">
+                                        @item.AppointmentId
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <p class="text-sm text-text-secondary truncate max-w-sm">@item.Notes</p>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex flex-col">
+                                        <span class="text-sm text-text-main font-medium">@item.TreatmentDate</span>
+                                        <span class="text-xs text-text-secondary">@item.TreatmentTime</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right">
+                                    <span class="text-sm font-bold text-text-main">₺@item.Cost</span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right">
+                                    <div class="flex items-center justify-end gap-2">
+                                        <a
+                                            href="~/Admin/Treatment/UpdateTreatment/@item.TreatmentId"
+                                            class="p-2 rounded-lg text-text-secondary hover:bg-gray-100 hover:text-primary transition-colors group"
+                                            title="Düzenle">
+                                            <span class="material-symbols-outlined text-[20px]">edit</span>
+                                        </a>
+                                        <a
+                                            href="~/Admin/Treatment/DeleteTreatment/@item.TreatmentId"
+                                            class="p-2 rounded-lg text-text-secondary hover:bg-red-50 hover:text-danger transition-colors group"
+                                            title="Sil">
+                                            <span class="material-symbols-outlined text-[20px]">delete</span>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>

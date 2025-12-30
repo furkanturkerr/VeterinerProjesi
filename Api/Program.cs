@@ -5,7 +5,6 @@ using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrate;
 using DataAccessLayer.EntityFramework;
 using DataAccessLayer.UnitOfWork;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +16,8 @@ builder.Services.AddScoped<IAnimalService, AnimalManager>();
 builder.Services.AddScoped<IAnimalDal, EfAnimalDal>();
 builder.Services.AddScoped<IAppointmentDal, EfAppointmentDal>();
 builder.Services.AddScoped<IAppointmentService, AppointmentManager>();
+builder.Services.AddScoped<ITreatmentService, TreatmentManager>();
+builder.Services.AddScoped<ITreatmentDal, EfTreatmentDal>();
 
 builder.Services.AddControllers();
 

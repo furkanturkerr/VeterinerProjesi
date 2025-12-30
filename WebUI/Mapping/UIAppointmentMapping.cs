@@ -10,7 +10,6 @@ public class UIAppointmentMapping : Profile
     {
         CreateMap<UIAppointment, ResultUIAppointmentDto>().ReverseMap();
         CreateMap<UIAppointment, CreateUIAppointmentDto>().ReverseMap();
-        CreateMap<UIAppointment, GetUIAppointmentDto>().ReverseMap();
         CreateMap<UIAppointment, UpdateUIAppointmentDto>().ReverseMap();
     }
 }

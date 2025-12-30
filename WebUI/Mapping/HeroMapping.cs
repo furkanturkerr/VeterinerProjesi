@@ -10,7 +10,6 @@ public class HeroMapping : Profile
     {
         CreateMap<Hero, ResultHeroDto>().ReverseMap();
         CreateMap<Hero, CreateHeroDto>().ReverseMap();
-        CreateMap<Hero, GetHeroDto>().ReverseMap();
         CreateMap<Hero, UpdateHeroDto>().ReverseMap();
     }
 }

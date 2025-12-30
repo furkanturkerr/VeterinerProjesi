@@ -356,6 +356,12 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateOnly>("TreatmentDate")
+                        .HasColumnType("date");
+
+                    b.Property<TimeOnly>("TreatmentTime")
+                        .HasColumnType("time");
+
                     b.Property<string>("TreatmentType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

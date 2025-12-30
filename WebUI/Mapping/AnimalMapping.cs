@@ -10,7 +10,6 @@ public class AnimalMapping : Profile
     {
         CreateMap<Animal, ResultAnimalDto>().ReverseMap();
         CreateMap<Animal, CreateAnimalDto>().ReverseMap();
-        CreateMap<Animal, GetAnimalDto>().ReverseMap();
         CreateMap<Animal, UpdateAnimalDto>().ReverseMap();
     } 
 }

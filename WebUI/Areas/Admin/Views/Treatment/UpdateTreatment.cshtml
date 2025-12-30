@@ -1,0 +1,77 @@
+@model DTOLayer.TreatmentDtos.UpdateTreatmentDto
+
+@{
+    Layout = "~/Views/Admin/index.cshtml";
+}
+
+<div class="flex-1 overflow-y-auto p-8 scroll-smooth">
+            <div class="max-w-3xl mx-auto pb-12">
+                <div class="bg-surface-white rounded-2xl border border-gray-200 shadow-soft p-8">
+                    <div class="mb-8 border-b border-gray-100 pb-6">
+                        <h2 class="text-2xl font-bold text-text-main">Tedavi Güncelle</h2>
+                        <p class="text-text-secondary text-sm mt-1">Sistemde kayıtlı bir randevu için yeni bir tedavi
+                            kaydını düzenleyin.</p>
+                    </div>
+                    <form class="space-y-6" method="post">
+                        <input type="hidden" asp-for="@Model.TreatmentId"/>
+                        <div>
+                            <label class="block text-sm font-medium text-text-secondary mb-1.5"
+                                   for="AppointmentId">Randevu</label>
+                            <select
+                                asp-for="AppointmentId" asp-items="ViewBag.Appointments"
+                                class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2.5 bg-white"
+                                id="AppointmentId" name="AppointmentId">
+                                <option value="">Seçiniz...</option>
+                            </select>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-text-secondary mb-1.5"
+                                       for="TreatmentType">Tedavi Adı</label>
+                                <input
+                                    asp-for="@Model.TreatmentType" value="@Model.TreatmentType"
+                                    class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2.5"
+                                    id="TreatmentType" name="TreatmentType"
+                                    placeholder="Örn: Aşı, Genel Muayene, Diş Temizliği" type="text"/>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-text-secondary mb-1.5"
+                                       for="Cost">Ücret</label>
+                                <div class="relative">
+                                    <input
+                                        asp-for="@Model.Cost" value="@Model.Cost"
+                                        class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2.5 pl-8"
+                                        id="Cost" name="Cost" placeholder="0.00" type="number"/>
+                                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                        <span class="text-gray-500 sm:text-sm">₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-text-secondary mb-1.5"
+                                   for="Notes">Notlar</label>
+                            <textarea
+                                asp-for="@Model.Notes"
+                                class="block w-full rounded-lg border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm p-3 min-h-[120px]"
+                                id="Notes" name="Notes"
+                                placeholder="Tedavi süreci, kullanılan ilaçlar veya gözlemler hakkında detaylar..."></textarea>
+                        </div>
+                        <div class="flex items-center justify-end gap-3 pt-6 mt-8 border-t border-gray-50">
+                            <a
+                                href="~/Admin/Treatment"
+                                class="px-5 py-2.5 text-sm font-medium text-text-secondary bg-white border border-gray-300 rounded-xl hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors"
+                                type="button">
+                                İptal
+                            </a>
+                            <button
+                                class="px-5 py-2.5 text-sm font-medium text-white bg-primary border border-transparent rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary shadow-sm shadow-blue-200 transition-colors flex items-center gap-2"
+                                type="submit">
+                                <span class="material-symbols-outlined text-[20px]">save</span>
+                                Güncelle
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
